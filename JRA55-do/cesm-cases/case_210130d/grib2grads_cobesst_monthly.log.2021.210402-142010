@@ -1,0 +1,11 @@
+2021
+
+Undefined parameter table (center 34-0 table 2), using NCEP-opn
+1:0:d=21011500:WTMP:kpds5=80:kpds6=160:kpds7=0:TR=0:P1=0:P2=0:TimeU=3:0 m below sea level:anl:NAve=0
+6:231880:d=21021500:WTMP:kpds5=80:kpds6=160:kpds7=0:TR=0:P1=0:P2=0:TimeU=3:0 m below sea level:anl:NAve=0
+11:463060:d=21031500:WTMP:kpds5=80:kpds6=160:kpds7=0:TR=0:P1=0:P2=0:TimeU=3:0 m below sea level:anl:NAve=0
+
+Undefined parameter table (center 34-0 table 2), using NCEP-opn
+4:194290:d=21011500:ICEC:kpds5=91:kpds6=160:kpds7=0:TR=0:P1=0:P2=0:TimeU=3:0 m below sea level:anl:NAve=0
+9:426170:d=21021500:ICEC:kpds5=91:kpds6=160:kpds7=0:TR=0:P1=0:P2=0:TimeU=3:0 m below sea level:anl:NAve=0
+14:657350:d=21031500:ICEC:kpds5=91:kpds6=160:kpds7=0:TR=0:P1=0:P2=0:TimeU=3:0 m below sea level:anl:NAve=0

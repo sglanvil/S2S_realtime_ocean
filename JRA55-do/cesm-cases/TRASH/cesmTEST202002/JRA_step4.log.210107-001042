@@ -1,0 +1,113 @@
+/glade/u/home/ssfcst/JRA55-do/cesm-scripts/JRA_step4.sh ENTER
+#trap '[[ $BASH_COMMAND != echo* ]] && $BASH_COMMAND' DEBUG
+#-------------------------------------------------------------------------------
+# LID=$(date +%y%m%d-%H%M%S)
+# LOGFILE=$(pwd)/master.$YEAR.log.$LID
+
+
+DATADIR=/glade/scratch/ssfcst/JRA55_data             # where input, output, & intermediate data is here
+HOMEDIR=/glade/u/home/ssfcst//JRA55-do               # where the standard JRA55-do scripts are
+SCRIPTDIR=/glade/u/home/ssfcst/JRA55-do/cesm-scripts # where the CESM wrapper scripts are
+
+YEARs=2020    # start date: year 
+MONTHs=1      # start date: month 
+DAYs=1        # start date: day in month
+ODAYs=1       # start date: ordinal day (day in year)
+
+YEARe=2020    # end date: year -- ?  assume YEARs = YEARe
+MONTHe=2      # end date: month 
+DAYe=29       # end date: day in month
+ODAYe=60      # end date: ordinal day
+DATESTRe=2020-02-29 # end date: text string for netCDF file name
+
+DATESTRc=20210106 # end date: text string for netCDF file name
+
+YEARp=2020    # end date: year -- ?  assume YEARs = YEARp
+MONTHp=3      # day after end date: month
+DAYp=1        # day after end date: day
+ODAYp=61      # day after end date: ordinal day
+
+COMPILE=TRUE    # TRUE => compile code
+DOWNLOAD=TRUE   # download ftp data
+
+DO_STEP0=FALSE
+DO_STEP1=FALSE
+DO_STEP2=FALSE
+DO_STEP3=FALSE
+DO_STEP4=TRUE
+DO_STEP5=FALSE
+DO_STEP6=FALSE
+DO_STEP7=FALSE
+DO_STEP8=FALSE
+LOGFILE=${CASEDIR}/${0}.${LID}
+echo "$0 LOGFILE = $LOGFILE"
+/glade/u/home/ssfcst/JRA55-do/cesm-scripts/JRA_step4.sh LOGFILE = /glade/u/home/ssfcst/JRA55-do/cesmTEST202002//glade/u/home/ssfcst/JRA55-do/cesm-scripts/JRA_step4.sh.210107-001042
+echo "$0 HOMEDIR = $LOGFILE"
+/glade/u/home/ssfcst/JRA55-do/cesm-scripts/JRA_step4.sh HOMEDIR = /glade/u/home/ssfcst/JRA55-do/cesmTEST202002//glade/u/home/ssfcst/JRA55-do/cesm-scripts/JRA_step4.sh.210107-001042
+#-------------------------------------------------------------------------------
+
+echo "==========================================================================="
+===========================================================================
+echo "4. Adjustment of downward short wave and long wave radiation fluxes"
+4. Adjustment of downward short wave and long wave radiation fluxes
+echo "==========================================================================="
+===========================================================================
+
+#-----------------------------------------------------------------------------------------
+echo " Adjustment ---------------------------------------------------------------"
+ Adjustment ---------------------------------------------------------------
+echo "tStamp: $(date +%y%m%d-%H%M%S)"
+tStamp: 210107-001042
+#-----------------------------------------------------------------------------------------
+
+cd $HOMEDIR/jra55_org_grid_calib
+pwd
+/glade/u/home/ssfcst/JRA55-do/jra55_org_grid_calib
+
+if [ $COMPILE == "TRUE" ] ; then
+   gmake calib_rad_interannual
+fi
+ifort src/calib_rad_interannual.F90 -c -convert big_endian -assume byterecl -I ../lib  -o calib_rad_interannual.o
+ifort calib_rad_interannual.o lib.a  -L ../lib -lmxe -o calib_rad_interannual
+rm calib_rad_interannual.o
+
+LOGFILE=$CASEDIR/calib_rad_interannual_update_exec.log.$LID
+time ./calib_rad_interannual_update_exec.sh   $YEARs $MONTHs $DAYs   $YEARp $MONTHp $DAYp  >& $LOGFILE
+
+real	0m29.068s
+user	0m0.652s
+sys	0m0.555s
+mv calib_rad_update_v0_7_*.log $CASEDIR
+#  input: DATADIR/ ???
+# output: .../inkdir/work/jra55fcst_v7_rad_3hr_TL319r
+
+
+#-----------------------------------------------------------------------------------------
+echo " Map variables from the reduced TL319 grid to normal TL319 grid -------"
+ Map variables from the reduced TL319 grid to normal TL319 grid -------
+echo "tStamp: $(date +%y%m%d-%H%M%S)"
+tStamp: 210107-001113
+#-----------------------------------------------------------------------------------------
+
+cd $HOMEDIR/jra55_org_grid_product   
+pwd
+/glade/u/home/ssfcst/JRA55-do/jra55_org_grid_product
+
+if [ $COMPILE == "TRUE" ] ; then
+   gmake make_red2reg
+fi
+gmake: `make_red2reg' is up to date.
+
+LOGFILE=$CASEDIR/red2reg_exec_rad.log.$LID
+time ./red2reg_exec_rad.sh $YEARs $YEARe $ODAYs $ODAYe  >& $LOGFILE
+
+real	0m31.739s
+user	0m9.084s
+sys	0m11.165s
+#  input: .../linkdir/work/jra55fcst_v0_7_rad_3hr_TL319r (see above)
+# output: .../linkdir/work/jra55fcst_v0_7_rad_3hr_TL319
+#   note: soft link  jra55fcst_v0_7_rad1_3hr_TL319 -> jra55fcst_v0_7_rad_3hr_TL319
+
+
+echo ${0} "EXIT"
+/glade/u/home/ssfcst/JRA55-do/cesm-scripts/JRA_step4.sh EXIT

@@ -1,0 +1,1084 @@
+2021
+year = 2021  istart = 1  iend = 9  ndayyr = 365
+creating 202101
+creating 202101
+  SST (B) read from ../linkdir/COBESST/daily/grads/sst-glb.2020 record = 
+         366
+  SST (A) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           1
+hour =    0 br =     0.500 ar =     0.500
+  set SST..... 
+  .... done 
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/u10m.2021010100
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/v10m.2021010100
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/tmp10m.2021010100
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/sph10m.2021010100
+  SST (B) read from ../linkdir/COBESST/daily/grads/sst-glb.2020 record = 
+         366
+  SST (A) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           1
+hour =    3 br =     0.375 ar =     0.625
+  set SST..... 
+  .... done 
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/u10m.2021010103
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/v10m.2021010103
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/tmp10m.2021010103
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/sph10m.2021010103
+  SST (B) read from ../linkdir/COBESST/daily/grads/sst-glb.2020 record = 
+         366
+  SST (A) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           1
+hour =    6 br =     0.250 ar =     0.750
+  set SST..... 
+  .... done 
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/u10m.2021010106
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/v10m.2021010106
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/tmp10m.2021010106
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/sph10m.2021010106
+  SST (B) read from ../linkdir/COBESST/daily/grads/sst-glb.2020 record = 
+         366
+  SST (A) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           1
+hour =    9 br =     0.125 ar =     0.875
+  set SST..... 
+  .... done 
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/u10m.2021010109
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/v10m.2021010109
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/tmp10m.2021010109
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/sph10m.2021010109
+  SST (B) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           1
+  SST (A) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           2
+hour =   12 br =     1.000 ar =     0.000
+  set SST..... 
+  .... done 
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/u10m.2021010112
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/v10m.2021010112
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/tmp10m.2021010112
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/sph10m.2021010112
+  SST (B) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           1
+  SST (A) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           2
+hour =   15 br =     0.875 ar =     0.125
+  set SST..... 
+  .... done 
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/u10m.2021010115
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/v10m.2021010115
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/tmp10m.2021010115
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/sph10m.2021010115
+  SST (B) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           1
+  SST (A) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           2
+hour =   18 br =     0.750 ar =     0.250
+  set SST..... 
+  .... done 
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/u10m.2021010118
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/v10m.2021010118
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/tmp10m.2021010118
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/sph10m.2021010118
+  SST (B) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           1
+  SST (A) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           2
+hour =   21 br =     0.625 ar =     0.375
+  set SST..... 
+  .... done 
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/u10m.2021010121
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/v10m.2021010121
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/tmp10m.2021010121
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/sph10m.2021010121
+  SST (B) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           1
+  SST (A) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           2
+hour =    0 br =     0.500 ar =     0.500
+  set SST..... 
+  .... done 
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/u10m.2021010200
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/v10m.2021010200
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/tmp10m.2021010200
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/sph10m.2021010200
+  SST (B) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           1
+  SST (A) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           2
+hour =    3 br =     0.375 ar =     0.625
+  set SST..... 
+  .... done 
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/u10m.2021010203
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/v10m.2021010203
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/tmp10m.2021010203
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/sph10m.2021010203
+  SST (B) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           1
+  SST (A) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           2
+hour =    6 br =     0.250 ar =     0.750
+  set SST..... 
+  .... done 
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/u10m.2021010206
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/v10m.2021010206
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/tmp10m.2021010206
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/sph10m.2021010206
+  SST (B) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           1
+  SST (A) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           2
+hour =    9 br =     0.125 ar =     0.875
+  set SST..... 
+  .... done 
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/u10m.2021010209
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/v10m.2021010209
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/tmp10m.2021010209
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/sph10m.2021010209
+  SST (B) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           2
+  SST (A) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           3
+hour =   12 br =     1.000 ar =     0.000
+  set SST..... 
+  .... done 
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/u10m.2021010212
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/v10m.2021010212
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/tmp10m.2021010212
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/sph10m.2021010212
+  SST (B) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           2
+  SST (A) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           3
+hour =   15 br =     0.875 ar =     0.125
+  set SST..... 
+  .... done 
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/u10m.2021010215
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/v10m.2021010215
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/tmp10m.2021010215
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/sph10m.2021010215
+  SST (B) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           2
+  SST (A) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           3
+hour =   18 br =     0.750 ar =     0.250
+  set SST..... 
+  .... done 
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/u10m.2021010218
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/v10m.2021010218
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/tmp10m.2021010218
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/sph10m.2021010218
+  SST (B) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           2
+  SST (A) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           3
+hour =   21 br =     0.625 ar =     0.375
+  set SST..... 
+  .... done 
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/u10m.2021010221
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/v10m.2021010221
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/tmp10m.2021010221
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/sph10m.2021010221
+  SST (B) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           2
+  SST (A) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           3
+hour =    0 br =     0.500 ar =     0.500
+  set SST..... 
+  .... done 
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/u10m.2021010300
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/v10m.2021010300
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/tmp10m.2021010300
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/sph10m.2021010300
+  SST (B) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           2
+  SST (A) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           3
+hour =    3 br =     0.375 ar =     0.625
+  set SST..... 
+  .... done 
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/u10m.2021010303
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/v10m.2021010303
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/tmp10m.2021010303
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/sph10m.2021010303
+  SST (B) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           2
+  SST (A) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           3
+hour =    6 br =     0.250 ar =     0.750
+  set SST..... 
+  .... done 
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/u10m.2021010306
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/v10m.2021010306
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/tmp10m.2021010306
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/sph10m.2021010306
+  SST (B) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           2
+  SST (A) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           3
+hour =    9 br =     0.125 ar =     0.875
+  set SST..... 
+  .... done 
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/u10m.2021010309
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/v10m.2021010309
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/tmp10m.2021010309
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/sph10m.2021010309
+  SST (B) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           3
+  SST (A) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           4
+hour =   12 br =     1.000 ar =     0.000
+  set SST..... 
+  .... done 
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/u10m.2021010312
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/v10m.2021010312
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/tmp10m.2021010312
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/sph10m.2021010312
+  SST (B) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           3
+  SST (A) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           4
+hour =   15 br =     0.875 ar =     0.125
+  set SST..... 
+  .... done 
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/u10m.2021010315
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/v10m.2021010315
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/tmp10m.2021010315
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/sph10m.2021010315
+  SST (B) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           3
+  SST (A) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           4
+hour =   18 br =     0.750 ar =     0.250
+  set SST..... 
+  .... done 
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/u10m.2021010318
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/v10m.2021010318
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/tmp10m.2021010318
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/sph10m.2021010318
+  SST (B) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           3
+  SST (A) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           4
+hour =   21 br =     0.625 ar =     0.375
+  set SST..... 
+  .... done 
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/u10m.2021010321
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/v10m.2021010321
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/tmp10m.2021010321
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/sph10m.2021010321
+  SST (B) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           3
+  SST (A) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           4
+hour =    0 br =     0.500 ar =     0.500
+  set SST..... 
+  .... done 
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/u10m.2021010400
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/v10m.2021010400
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/tmp10m.2021010400
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/sph10m.2021010400
+  SST (B) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           3
+  SST (A) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           4
+hour =    3 br =     0.375 ar =     0.625
+  set SST..... 
+  .... done 
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/u10m.2021010403
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/v10m.2021010403
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/tmp10m.2021010403
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/sph10m.2021010403
+  SST (B) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           3
+  SST (A) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           4
+hour =    6 br =     0.250 ar =     0.750
+  set SST..... 
+  .... done 
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/u10m.2021010406
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/v10m.2021010406
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/tmp10m.2021010406
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/sph10m.2021010406
+  SST (B) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           3
+  SST (A) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           4
+hour =    9 br =     0.125 ar =     0.875
+  set SST..... 
+  .... done 
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/u10m.2021010409
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/v10m.2021010409
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/tmp10m.2021010409
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/sph10m.2021010409
+  SST (B) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           4
+  SST (A) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           5
+hour =   12 br =     1.000 ar =     0.000
+  set SST..... 
+  .... done 
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/u10m.2021010412
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/v10m.2021010412
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/tmp10m.2021010412
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/sph10m.2021010412
+  SST (B) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           4
+  SST (A) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           5
+hour =   15 br =     0.875 ar =     0.125
+  set SST..... 
+  .... done 
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/u10m.2021010415
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/v10m.2021010415
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/tmp10m.2021010415
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/sph10m.2021010415
+  SST (B) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           4
+  SST (A) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           5
+hour =   18 br =     0.750 ar =     0.250
+  set SST..... 
+  .... done 
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/u10m.2021010418
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/v10m.2021010418
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/tmp10m.2021010418
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/sph10m.2021010418
+  SST (B) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           4
+  SST (A) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           5
+hour =   21 br =     0.625 ar =     0.375
+  set SST..... 
+  .... done 
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/u10m.2021010421
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/v10m.2021010421
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/tmp10m.2021010421
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/sph10m.2021010421
+  SST (B) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           4
+  SST (A) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           5
+hour =    0 br =     0.500 ar =     0.500
+  set SST..... 
+  .... done 
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/u10m.2021010500
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/v10m.2021010500
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/tmp10m.2021010500
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/sph10m.2021010500
+  SST (B) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           4
+  SST (A) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           5
+hour =    3 br =     0.375 ar =     0.625
+  set SST..... 
+  .... done 
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/u10m.2021010503
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/v10m.2021010503
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/tmp10m.2021010503
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/sph10m.2021010503
+  SST (B) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           4
+  SST (A) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           5
+hour =    6 br =     0.250 ar =     0.750
+  set SST..... 
+  .... done 
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/u10m.2021010506
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/v10m.2021010506
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/tmp10m.2021010506
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/sph10m.2021010506
+  SST (B) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           4
+  SST (A) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           5
+hour =    9 br =     0.125 ar =     0.875
+  set SST..... 
+  .... done 
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/u10m.2021010509
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/v10m.2021010509
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/tmp10m.2021010509
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/sph10m.2021010509
+  SST (B) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           5
+  SST (A) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           6
+hour =   12 br =     1.000 ar =     0.000
+  set SST..... 
+  .... done 
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/u10m.2021010512
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/v10m.2021010512
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/tmp10m.2021010512
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/sph10m.2021010512
+  SST (B) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           5
+  SST (A) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           6
+hour =   15 br =     0.875 ar =     0.125
+  set SST..... 
+  .... done 
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/u10m.2021010515
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/v10m.2021010515
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/tmp10m.2021010515
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/sph10m.2021010515
+  SST (B) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           5
+  SST (A) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           6
+hour =   18 br =     0.750 ar =     0.250
+  set SST..... 
+  .... done 
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/u10m.2021010518
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/v10m.2021010518
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/tmp10m.2021010518
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/sph10m.2021010518
+  SST (B) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           5
+  SST (A) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           6
+hour =   21 br =     0.625 ar =     0.375
+  set SST..... 
+  .... done 
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/u10m.2021010521
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/v10m.2021010521
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/tmp10m.2021010521
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/sph10m.2021010521
+  SST (B) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           5
+  SST (A) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           6
+hour =    0 br =     0.500 ar =     0.500
+  set SST..... 
+  .... done 
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/u10m.2021010600
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/v10m.2021010600
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/tmp10m.2021010600
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/sph10m.2021010600
+  SST (B) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           5
+  SST (A) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           6
+hour =    3 br =     0.375 ar =     0.625
+  set SST..... 
+  .... done 
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/u10m.2021010603
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/v10m.2021010603
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/tmp10m.2021010603
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/sph10m.2021010603
+  SST (B) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           5
+  SST (A) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           6
+hour =    6 br =     0.250 ar =     0.750
+  set SST..... 
+  .... done 
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/u10m.2021010606
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/v10m.2021010606
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/tmp10m.2021010606
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/sph10m.2021010606
+  SST (B) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           5
+  SST (A) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           6
+hour =    9 br =     0.125 ar =     0.875
+  set SST..... 
+  .... done 
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/u10m.2021010609
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/v10m.2021010609
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/tmp10m.2021010609
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/sph10m.2021010609
+  SST (B) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           6
+  SST (A) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           7
+hour =   12 br =     1.000 ar =     0.000
+  set SST..... 
+  .... done 
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/u10m.2021010612
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/v10m.2021010612
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/tmp10m.2021010612
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/sph10m.2021010612
+  SST (B) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           6
+  SST (A) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           7
+hour =   15 br =     0.875 ar =     0.125
+  set SST..... 
+  .... done 
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/u10m.2021010615
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/v10m.2021010615
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/tmp10m.2021010615
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/sph10m.2021010615
+  SST (B) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           6
+  SST (A) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           7
+hour =   18 br =     0.750 ar =     0.250
+  set SST..... 
+  .... done 
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/u10m.2021010618
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/v10m.2021010618
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/tmp10m.2021010618
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/sph10m.2021010618
+  SST (B) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           6
+  SST (A) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           7
+hour =   21 br =     0.625 ar =     0.375
+  set SST..... 
+  .... done 
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/u10m.2021010621
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/v10m.2021010621
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/tmp10m.2021010621
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/sph10m.2021010621
+  SST (B) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           6
+  SST (A) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           7
+hour =    0 br =     0.500 ar =     0.500
+  set SST..... 
+  .... done 
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/u10m.2021010700
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/v10m.2021010700
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/tmp10m.2021010700
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/sph10m.2021010700
+  SST (B) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           6
+  SST (A) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           7
+hour =    3 br =     0.375 ar =     0.625
+  set SST..... 
+  .... done 
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/u10m.2021010703
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/v10m.2021010703
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/tmp10m.2021010703
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/sph10m.2021010703
+  SST (B) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           6
+  SST (A) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           7
+hour =    6 br =     0.250 ar =     0.750
+  set SST..... 
+  .... done 
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/u10m.2021010706
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/v10m.2021010706
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/tmp10m.2021010706
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/sph10m.2021010706
+  SST (B) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           6
+  SST (A) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           7
+hour =    9 br =     0.125 ar =     0.875
+  set SST..... 
+  .... done 
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/u10m.2021010709
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/v10m.2021010709
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/tmp10m.2021010709
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/sph10m.2021010709
+  SST (B) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           7
+  SST (A) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           8
+hour =   12 br =     1.000 ar =     0.000
+  set SST..... 
+  .... done 
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/u10m.2021010712
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/v10m.2021010712
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/tmp10m.2021010712
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/sph10m.2021010712
+  SST (B) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           7
+  SST (A) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           8
+hour =   15 br =     0.875 ar =     0.125
+  set SST..... 
+  .... done 
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/u10m.2021010715
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/v10m.2021010715
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/tmp10m.2021010715
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/sph10m.2021010715
+  SST (B) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           7
+  SST (A) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           8
+hour =   18 br =     0.750 ar =     0.250
+  set SST..... 
+  .... done 
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/u10m.2021010718
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/v10m.2021010718
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/tmp10m.2021010718
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/sph10m.2021010718
+  SST (B) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           7
+  SST (A) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           8
+hour =   21 br =     0.625 ar =     0.375
+  set SST..... 
+  .... done 
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/u10m.2021010721
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/v10m.2021010721
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/tmp10m.2021010721
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/sph10m.2021010721
+  SST (B) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           7
+  SST (A) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           8
+hour =    0 br =     0.500 ar =     0.500
+  set SST..... 
+  .... done 
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/u10m.2021010800
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/v10m.2021010800
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/tmp10m.2021010800
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/sph10m.2021010800
+  SST (B) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           7
+  SST (A) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           8
+hour =    3 br =     0.375 ar =     0.625
+  set SST..... 
+  .... done 
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/u10m.2021010803
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/v10m.2021010803
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/tmp10m.2021010803
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/sph10m.2021010803
+  SST (B) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           7
+  SST (A) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           8
+hour =    6 br =     0.250 ar =     0.750
+  set SST..... 
+  .... done 
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/u10m.2021010806
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/v10m.2021010806
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/tmp10m.2021010806
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/sph10m.2021010806
+  SST (B) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           7
+  SST (A) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           8
+hour =    9 br =     0.125 ar =     0.875
+  set SST..... 
+  .... done 
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/u10m.2021010809
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/v10m.2021010809
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/tmp10m.2021010809
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/sph10m.2021010809
+  SST (B) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           8
+  SST (A) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           9
+hour =   12 br =     1.000 ar =     0.000
+  set SST..... 
+  .... done 
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/u10m.2021010812
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/v10m.2021010812
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/tmp10m.2021010812
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/sph10m.2021010812
+  SST (B) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           8
+  SST (A) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           9
+hour =   15 br =     0.875 ar =     0.125
+  set SST..... 
+  .... done 
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/u10m.2021010815
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/v10m.2021010815
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/tmp10m.2021010815
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/sph10m.2021010815
+  SST (B) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           8
+  SST (A) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           9
+hour =   18 br =     0.750 ar =     0.250
+  set SST..... 
+  .... done 
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/u10m.2021010818
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/v10m.2021010818
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/tmp10m.2021010818
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/sph10m.2021010818
+  SST (B) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           8
+  SST (A) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           9
+hour =   21 br =     0.625 ar =     0.375
+  set SST..... 
+  .... done 
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/u10m.2021010821
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/v10m.2021010821
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/tmp10m.2021010821
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/sph10m.2021010821
+  SST (B) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           8
+  SST (A) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           9
+hour =    0 br =     0.500 ar =     0.500
+  set SST..... 
+  .... done 
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/u10m.2021010900
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/v10m.2021010900
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/tmp10m.2021010900
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/sph10m.2021010900
+  SST (B) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           8
+  SST (A) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           9
+hour =    3 br =     0.375 ar =     0.625
+  set SST..... 
+  .... done 
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/u10m.2021010903
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/v10m.2021010903
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/tmp10m.2021010903
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/sph10m.2021010903
+  SST (B) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           8
+  SST (A) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           9
+hour =    6 br =     0.250 ar =     0.750
+  set SST..... 
+  .... done 
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/u10m.2021010906
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/v10m.2021010906
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/tmp10m.2021010906
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/sph10m.2021010906
+  SST (B) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           8
+  SST (A) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           9
+hour =    9 br =     0.125 ar =     0.875
+  set SST..... 
+  .... done 
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/u10m.2021010909
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/v10m.2021010909
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/tmp10m.2021010909
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/sph10m.2021010909
+  SST (B) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           9
+  SST (A) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+          10
+hour =   12 br =     1.000 ar =     0.000
+  set SST..... 
+  .... done 
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/u10m.2021010912
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/v10m.2021010912
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/tmp10m.2021010912
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/sph10m.2021010912
+  SST (B) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           9
+  SST (A) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+          10
+hour =   15 br =     0.875 ar =     0.125
+  set SST..... 
+  .... done 
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/u10m.2021010915
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/v10m.2021010915
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/tmp10m.2021010915
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/sph10m.2021010915
+  SST (B) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           9
+  SST (A) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+          10
+hour =   18 br =     0.750 ar =     0.250
+  set SST..... 
+  .... done 
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/u10m.2021010918
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/v10m.2021010918
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/tmp10m.2021010918
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/sph10m.2021010918
+  SST (B) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+           9
+  SST (A) read from ../linkdir/COBESST/daily/grads/sst-glb.2021 record = 
+          10
+hour =   21 br =     0.625 ar =     0.375
+  set SST..... 
+  .... done 
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/u10m.2021010921
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/v10m.2021010921
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/tmp10m.2021010921
+ Product written to 
+ ../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r/202101/sph10m.2021010921

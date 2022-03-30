@@ -1,0 +1,10 @@
+&nml_make_table
+  file_mask='../linkdir/work/data/TL319.mask'
+  file_table='../linkdir/work/data/red2reg_fill_with_water.d'
+  l_simple_linear=.false.
+  imut=640,
+  jmut=320,
+  dlon=0.5625d0
+  grid_name='TL319'
+  file_ydef='../linkdir/work/data/lat_jra55_exact.txt'
+/

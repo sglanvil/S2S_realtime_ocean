@@ -1,0 +1,12 @@
+ reading temparature from ... ../linkdir/COBESST/monthly/grads/sst-glb.2021
+ reading ice fractional area from ... 
+ ../linkdir/COBESST/monthly/grads/ice-glb.2021
+forrtl: severe (36): attempt to access non-existent record, unit 61, file /glade/u/home/ssfcst/JRA55-do/cobesst/../linkdir/COBESST/monthly/grads/sst-glb.2021
+Image              PC                Routine            Line        Source             
+separate_cobesst_  0000000000407F7B  Unknown               Unknown  Unknown
+separate_cobesst_  00000000004211E2  Unknown               Unknown  Unknown
+separate_cobesst_  000000000041F190  Unknown               Unknown  Unknown
+separate_cobesst_  0000000000405286  Unknown               Unknown  Unknown
+separate_cobesst_  0000000000404922  Unknown               Unknown  Unknown
+libc-2.17.so       00002B6C9FE9D555  __libc_start_main     Unknown  Unknown
+separate_cobesst_  0000000000404829  Unknown               Unknown  Unknown

@@ -1,0 +1,108 @@
+/glade/u/home/ssfcst/JRA55-do/cesm-scripts/JRA_step5.sh ENTER
+#trap '[[ $BASH_COMMAND != echo* ]] && $BASH_COMMAND' DEBUG
+
+# LID=$(date +%y%m%d-%H%M%S)
+# LOGFILE=$(pwd)/master.$YEAR.log.$LID
+#-------------------------------------------------------------------------------
+
+
+DATADIR=/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data # work dir for input, output, intermediate data
+HOMEDIR=/glade/u/home/ssfcst/JRA55-do                # root dir for all JRA55-do scripts (repo root dir)
+SCRIPTDIR=/glade/u/home/ssfcst/JRA55-do/cesm-scripts # where the CESM wrapper scripts are
+
+YEARs=2021    # start date: year 
+MONTHs=1      # start date: month 
+DAYs=1        # start date: day of month
+ODAYs=1       # start date: ordinal day (day in year)
+
+YEARe=2021    # end date: year 
+MONTHe=7      # end date: month of year
+DAYe=30       # end date: day of month
+ODAYe=211      # end date: ordinal day
+DATESTRe=20210730 # end date: text string for netCDF file name
+
+YEARp=2021    # end date: year 
+MONTHp=7      # day after end date: month of year
+DAYp=31       # day after end date: day of month
+
+DATESTRc=20210730 # file creation date text string for netCDF file name
+
+COMPILE=FALSE   # TRUE => compile code
+DOWNLOAD=TRUE   # download ftp data
+
+DO_STEP0=FALSE
+DO_STEP1=TRUE
+DO_STEP2=TRUE
+DO_STEP3=TRUE
+DO_STEP4=TRUE
+DO_STEP5=TRUE
+DO_STEP6=TRUE
+DO_STEP7=TRUE
+DO_STEP8=TRUE 
+LOGFILE=${CASEDIR}/${0}.${LID}
+echo "$0 LOGFILE = $LOGFILE"
+/glade/u/home/ssfcst/JRA55-do/cesm-scripts/JRA_step5.sh LOGFILE = /glade/u/home/ssfcst/JRA55-do/cesm-cases/case_210730//glade/u/home/ssfcst/JRA55-do/cesm-scripts/JRA_step5.sh.210803-105446
+echo "$0 HOMEDIR = $LOGFILE"
+/glade/u/home/ssfcst/JRA55-do/cesm-scripts/JRA_step5.sh HOMEDIR = /glade/u/home/ssfcst/JRA55-do/cesm-cases/case_210730//glade/u/home/ssfcst/JRA55-do/cesm-scripts/JRA_step5.sh.210803-105446
+#-------------------------------------------------------------------------------
+
+echo "==========================================================================="
+===========================================================================
+echo "5. Adjustment of precipitation fluxes"
+5. Adjustment of precipitation fluxes
+echo "==========================================================================="
+===========================================================================
+
+#-----------------------------------------------------------------------------------------
+echo " Adjustment ---------------------------------------------------------------"
+ Adjustment ---------------------------------------------------------------
+echo "tStamp: $(date +%y%m%d-%H%M%S)"
+tStamp: 210803-105446
+#-----------------------------------------------------------------------------------------
+
+cd $HOMEDIR/jra55_org_grid_calib
+pwd
+/glade/u/home/ssfcst/JRA55-do/jra55_org_grid_calib
+
+if [ $COMPILE == "TRUE" ] ; then
+   gmake calib_precip_interannual
+fi
+
+LOGFILE=$CASEDIR/calib_prcp_snow_interannual_update_exec_v1_2.log.$LID
+time ./calib_prcp_snow_interannual_update_exec_v1_2.sh   $YEARs $MONTHs $DAYs   $YEARp $MONTHp $DAYp  >& $LOGFILE
+
+real	1m29.556s
+user	0m1.467s
+sys	0m1.738s
+mv calib_v1_2_prcp_update.log $CASEDIR
+mv calib_v1_2_snow_update.log $CASEDIR
+#  input: DATADIR/ ???
+# output: .../linkdir/work/jra55fcst_v1_2_prcp_3hr_TL319r
+
+
+#-----------------------------------------------------------------------------------------
+echo " Map variables from reduced TL319 grid to normal TL319 grid -------"
+ Map variables from reduced TL319 grid to normal TL319 grid -------
+echo "tStamp: $(date +%y%m%d-%H%M%S)"
+tStamp: 210803-105616
+#-----------------------------------------------------------------------------------------
+
+cd $HOMEDIR/jra55_org_grid_product   
+pwd
+/glade/u/home/ssfcst/JRA55-do/jra55_org_grid_product
+
+if [ $COMPILE == "TRUE" ] ; then
+   gmake make_red2reg
+fi
+
+LOGFILE=$CASEDIR/red2reg_exec_precip_v1_2.log.$LID
+time ./red2reg_exec_precip_v1_2.sh   $YEARs $YEARe $ODAYs $ODAYe  >& $LOGFILE
+
+real	1m25.725s
+user	0m33.938s
+sys	0m39.509s
+#  input: .../linkdir/work/jra55fcst_v1_2_prcp_3hr_TL319r (see above)
+# output: .../linkdir/work/jra55fcst_v1_2_prcp_3hr_TL319
+
+echo ${0} "EXIT"
+/glade/u/home/ssfcst/JRA55-do/cesm-scripts/JRA_step5.sh EXIT

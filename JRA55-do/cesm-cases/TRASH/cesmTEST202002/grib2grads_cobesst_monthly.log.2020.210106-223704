@@ -1,0 +1,29 @@
+2020
+
+Undefined parameter table (center 34-0 table 2), using NCEP-opn
+1:0:d=20011500:WTMP:kpds5=80:kpds6=160:kpds7=0:TR=0:P1=0:P2=0:TimeU=3:0 m below sea level:anl:NAve=0
+6:232524:d=20021500:WTMP:kpds5=80:kpds6=160:kpds7=0:TR=0:P1=0:P2=0:TimeU=3:0 m below sea level:anl:NAve=0
+11:464506:d=20031500:WTMP:kpds5=80:kpds6=160:kpds7=0:TR=0:P1=0:P2=0:TimeU=3:0 m below sea level:anl:NAve=0
+16:696994:d=20041500:WTMP:kpds5=80:kpds6=160:kpds7=0:TR=0:P1=0:P2=0:TimeU=3:0 m below sea level:anl:NAve=0
+21:929462:d=20051500:WTMP:kpds5=80:kpds6=160:kpds7=0:TR=0:P1=0:P2=0:TimeU=3:0 m below sea level:anl:NAve=0
+26:1162064:d=20061500:WTMP:kpds5=80:kpds6=160:kpds7=0:TR=0:P1=0:P2=0:TimeU=3:0 m below sea level:anl:NAve=0
+31:1394550:d=20071500:WTMP:kpds5=80:kpds6=160:kpds7=0:TR=0:P1=0:P2=0:TimeU=3:0 m below sea level:anl:NAve=0
+36:1626960:d=20081500:WTMP:kpds5=80:kpds6=160:kpds7=0:TR=0:P1=0:P2=0:TimeU=3:0 m below sea level:anl:NAve=0
+41:1859158:d=20091500:WTMP:kpds5=80:kpds6=160:kpds7=0:TR=0:P1=0:P2=0:TimeU=3:0 m below sea level:anl:NAve=0
+46:2091314:d=20101500:WTMP:kpds5=80:kpds6=160:kpds7=0:TR=0:P1=0:P2=0:TimeU=3:0 m below sea level:anl:NAve=0
+51:2324016:d=20111500:WTMP:kpds5=80:kpds6=160:kpds7=0:TR=0:P1=0:P2=0:TimeU=3:0 m below sea level:anl:NAve=0
+56:2556834:d=20121500:WTMP:kpds5=80:kpds6=160:kpds7=0:TR=0:P1=0:P2=0:TimeU=3:0 m below sea level:anl:NAve=0
+
+Undefined parameter table (center 34-0 table 2), using NCEP-opn
+4:194290:d=20011500:ICEC:kpds5=91:kpds6=160:kpds7=0:TR=0:P1=0:P2=0:TimeU=3:0 m below sea level:anl:NAve=0
+9:426814:d=20021500:ICEC:kpds5=91:kpds6=160:kpds7=0:TR=0:P1=0:P2=0:TimeU=3:0 m below sea level:anl:NAve=0
+14:658796:d=20031500:ICEC:kpds5=91:kpds6=160:kpds7=0:TR=0:P1=0:P2=0:TimeU=3:0 m below sea level:anl:NAve=0
+19:891284:d=20041500:ICEC:kpds5=91:kpds6=160:kpds7=0:TR=0:P1=0:P2=0:TimeU=3:0 m below sea level:anl:NAve=0
+24:1123752:d=20051500:ICEC:kpds5=91:kpds6=160:kpds7=0:TR=0:P1=0:P2=0:TimeU=3:0 m below sea level:anl:NAve=0
+29:1356354:d=20061500:ICEC:kpds5=91:kpds6=160:kpds7=0:TR=0:P1=0:P2=0:TimeU=3:0 m below sea level:anl:NAve=0
+34:1588840:d=20071500:ICEC:kpds5=91:kpds6=160:kpds7=0:TR=0:P1=0:P2=0:TimeU=3:0 m below sea level:anl:NAve=0
+39:1821250:d=20081500:ICEC:kpds5=91:kpds6=160:kpds7=0:TR=0:P1=0:P2=0:TimeU=3:0 m below sea level:anl:NAve=0
+44:2053448:d=20091500:ICEC:kpds5=91:kpds6=160:kpds7=0:TR=0:P1=0:P2=0:TimeU=3:0 m below sea level:anl:NAve=0
+49:2285604:d=20101500:ICEC:kpds5=91:kpds6=160:kpds7=0:TR=0:P1=0:P2=0:TimeU=3:0 m below sea level:anl:NAve=0
+54:2518306:d=20111500:ICEC:kpds5=91:kpds6=160:kpds7=0:TR=0:P1=0:P2=0:TimeU=3:0 m below sea level:anl:NAve=0
+59:2751124:d=20121500:ICEC:kpds5=91:kpds6=160:kpds7=0:TR=0:P1=0:P2=0:TimeU=3:0 m below sea level:anl:NAve=0

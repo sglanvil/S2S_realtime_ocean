@@ -1,0 +1,136 @@
+/glade/u/home/ssfcst/JRA55-do/cesm-scripts/JRA_step7.sh ENTER
+#trap '[[ $BASH_COMMAND != echo* ]] && $BASH_COMMAND' DEBUG
+
+# LID=$(date +%y%m%d-%H%M%S)
+# LOGFILE=$(pwd)/master.$YEAR.log.$LID
+#-------------------------------------------------------------------------------
+
+
+DATADIR=/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data # work dir for input, output, intermediate data
+HOMEDIR=/glade/u/home/ssfcst/JRA55-do                # root dir for all JRA55-do scripts (repo root dir)
+SCRIPTDIR=/glade/u/home/ssfcst/JRA55-do/cesm-scripts # where the CESM wrapper scripts are
+
+YEARs=2021    # start date: year 
+MONTHs=1      # start date: month 
+DAYs=1        # start date: day of month
+ODAYs=1       # start date: ordinal day (day in year)
+
+YEARe=2021    # end date: year 
+MONTHe=6      # end date: month of year
+DAYe=11       # end date: day of month
+ODAYe=162      # end date: ordinal day
+DATESTRe=20210611 # end date: text string for netCDF file name
+
+YEARp=2021    # end date: year 
+MONTHp=6      # day after end date: month of year
+DAYp=12       # day after end date: day of month
+
+DATESTRc=20210611 # file creation date text string for netCDF file name
+
+COMPILE=FALSE   # TRUE => compile code
+DOWNLOAD=TRUE   # download ftp data
+
+DO_STEP0=FALSE
+DO_STEP1=TRUE
+DO_STEP2=TRUE
+DO_STEP3=TRUE
+DO_STEP4=TRUE
+DO_STEP5=TRUE
+DO_STEP6=TRUE
+DO_STEP7=TRUE
+DO_STEP8=TRUE 
+LOGFILE=${CASEDIR}/${0}.${LID}
+echo "$0 LOGFILE = $LOGFILE"
+/glade/u/home/ssfcst/JRA55-do/cesm-scripts/JRA_step7.sh LOGFILE = /glade/u/home/ssfcst/JRA55-do/cesm-cases/case_210611//glade/u/home/ssfcst/JRA55-do/cesm-scripts/JRA_step7.sh.210615-193553
+echo "$0 HOMEDIR = $LOGFILE"
+/glade/u/home/ssfcst/JRA55-do/cesm-scripts/JRA_step7.sh HOMEDIR = /glade/u/home/ssfcst/JRA55-do/cesm-cases/case_210611//glade/u/home/ssfcst/JRA55-do/cesm-scripts/JRA_step7.sh.210615-193553
+#-------------------------------------------------------------------------------
+
+echo "==========================================================================="
+===========================================================================
+echo "7 Applying globally constant factors to downward fluxes"
+7 Applying globally constant factors to downward fluxes
+echo "==========================================================================="
+===========================================================================
+
+#-----------------------------------------------------------------------------------------
+echo " Downward Radiation -------------------------------------------------------"
+ Downward Radiation -------------------------------------------------------
+echo "tStamp: $(date +%y%m%d-%H%M%S)"
+tStamp: 210615-193553
+#-----------------------------------------------------------------------------------------
+
+cd $HOMEDIR/jra55_calib
+pwd
+/glade/u/home/ssfcst/JRA55-do/jra55_calib
+
+if [ $COMPILE == "TRUE" ] ; then
+   gmake calib_rad_interannual
+fi
+
+LOGFILE=$CASEDIR/calib_rad_const_update_exec_v1_3.log.$LID
+time ./calib_rad_const_update_exec.sh  v1_3 $YEARs $MONTHs $DAYs   $YEARp $MONTHp $DAYp  >& $LOGFILE
+
+real	0m22.747s
+user	0m2.036s
+sys	0m1.192s
+mv calib_rad_const_v1_3_update.log $CASEDIR/calib_rad_const_v1_3_update.log.$LID
+#  input: .../linkdir/work/jra55fcst_v0_7_rad1_3hr_TL319
+# output: .../linkdir/work/jra55fcst_v1_3_rad2_3hr_TL319
+
+#-----------------------------------------------------------------------------------------
+echo " Precipitation ------------------------------------------------------------"
+ Precipitation ------------------------------------------------------------
+echo "tStamp: $(date +%y%m%d-%H%M%S)"
+tStamp: 210615-193616
+#-----------------------------------------------------------------------------------------
+
+cd $HOMEDIR/jra55_calib
+pwd
+/glade/u/home/ssfcst/JRA55-do/jra55_calib
+
+if [ $COMPILE == "TRUE" ] ; then
+   gmake calib_precip_interannual
+fi
+
+LOGFILE=$CASEDIR/calib_prcp_snow_const_update_exec_v1_3.log.$LID
+time ./calib_prcp_snow_const_update_exec.sh  v1_3 $YEARs $MONTHs $DAYs   $YEARp $MONTHp $DAYp  >& $LOGFILE
+
+real	0m19.278s
+user	0m1.686s
+sys	0m1.502s
+mv calib_prcp_const_v1_3_update.log $CASEDIR/calib_prcp_const_v1_3_update.log.$LID
+mv calib_snow_const_v1_3_update.log $CASEDIR/calib_snow_const_v1_3_update.log.$LID
+#  input: .../linkdir/work/jra55fcst_v1_2_prcp_3hr_TL319
+# output: .../linkdir/work/jra55fcst_v1_3_prcp2_3hr_TL319
+
+#-----------------------------------------------------------------------------------------
+echo " Generate rain data -------------------------------------------------------"
+ Generate rain data -------------------------------------------------------
+echo "tStamp: $(date +%y%m%d-%H%M%S)"
+tStamp: 210615-193635
+#-----------------------------------------------------------------------------------------
+# CREATES  .../linkdir/products/version_1_5/grads/YYYY  FOR WHOLE YEAR
+
+cd $HOMEDIR/jra55_calib
+pwd
+/glade/u/home/ssfcst/JRA55-do/jra55_calib
+
+if [ $COMPILE == "TRUE" ] ; then
+   gmake precip_minus_snow_interannual
+fi
+
+DIR=$HOMEDIR/linkdir/products/version_1_5/grads/$YEARs ; if [ ! -d $DIR ]; then mkdir -p $DIR ; fi
+
+LOGFILE=$CASEDIR/create_rain_update_log.$LID
+time ./create_rain_update.sh v1_5 $YEARs $MONTHs $DAYs   $YEARp $MONTHp $DAYp  >& $LOGFILE
+
+real	0m4.023s
+user	0m1.046s
+sys	0m0.847s
+mv create_rain-v1_5_update.log $CASEDIR/create_rain-v1_5_update.log.$LID
+#  input: .../linkdir/work/jra55fcst_v1_3_prcp2_3hr_TL319
+# output: .../linkdir/work/version_1_5/grads/YYYY 
+
+echo ${0} "EXIT"
+/glade/u/home/ssfcst/JRA55-do/cesm-scripts/JRA_step7.sh EXIT

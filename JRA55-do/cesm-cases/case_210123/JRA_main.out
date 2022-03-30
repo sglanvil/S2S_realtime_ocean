@@ -1,0 +1,168 @@
+../../cesm-scripts/JRA_main.sh: /glade/u/home/ssfcst/JRA55-do/cesm-cases/case_210123
+../../cesm-scripts/JRA_main.sh:
+#trap '[[ $BASH_COMMAND != echo* ]] && $BASH_COMMAND' DEBUG
+
+# LID=$(date +%y%m%d-%H%M%S)
+# LOGFILE=$(pwd)/master.$YEAR.log.$LID
+#-------------------------------------------------------------------------------
+
+
+DATADIR=/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data # work dir for input, output, intermediate data
+HOMEDIR=/glade/u/home/ssfcst/JRA55-do                # root dir for all JRA55-do scripts (repo root dir)
+SCRIPTDIR=/glade/u/home/ssfcst/JRA55-do/cesm-scripts # where the CESM wrapper scripts are
+
+YEARs=2021    # start date: year 
+MONTHs=1      # start date: month 
+DAYs=1        # start date: day of month
+ODAYs=1       # start date: ordinal day (day in year)
+
+YEARe=2021    # end date: year 
+MONTHe=1      # end date: month of year
+DAYe=23       # end date: day of month
+ODAYe=23      # end date: ordinal day
+DATESTRe=20210123 # end date: text string for netCDF file name
+
+YEARp=2021    # day after end date: year 
+MONTHp=1      # day after end date: month of year
+DAYp=24       # day after end date: day of month
+# ODAYp=24    # day after end date: ordinal day -- not used
+
+DATESTRc=20210223 # file creation date text string for netCDF file name
+
+COMPILE=FALSE   # TRUE => compile code
+DOWNLOAD=TRUE   # download ftp data
+
+DO_STEP0=FALSE
+DO_STEP1=TRUE
+DO_STEP2=TRUE
+DO_STEP3=TRUE
+DO_STEP4=TRUE
+DO_STEP5=TRUE
+DO_STEP6=TRUE
+DO_STEP7=TRUE
+DO_STEP8=TRUE 
+
+#-------------------------------------------------------------------------------
+#
+#-------------------------------------------------------------------------------
+
+LID=$(date +%y%m%d-%H%M%S)   # log ID / time-stamp
+echo "${0}: Step 0  $LID"
+../../cesm-scripts/JRA_main.sh: Step 0  210224-105139
+if [ $DO_STEP0 == "TRUE" ] ; then
+   echo "${0}: Step 0  execute..."
+   touch $DATADIR/timestamp_step0
+   touch $CASEDIR/timestamp_step0.$LID
+   sh $SCRIPTDIR/JRA_step0.sh $LID $CASEDIR  >& $CASEDIR/JRA_step0.log.$LID
+else
+   echo "${0}: Step 0  NOT executed"
+fi
+../../cesm-scripts/JRA_main.sh: Step 0  NOT executed
+
+LID=$(date +%y%m%d-%H%M%S)   # log ID / time-stamp
+echo "${0}: Step 1  $LID"
+../../cesm-scripts/JRA_main.sh: Step 1  210224-105139
+if [ $DO_STEP1 == "TRUE" ] ; then
+   echo "${0}: Step 1  execute..."
+   touch $DATADIR/timestamp_step1
+   touch $CASEDIR/timestamp_step1.$LID
+   sh $SCRIPTDIR/JRA_step1.sh $LID $CASEDIR  >& $CASEDIR/JRA_step1.log.$LID
+else
+   echo "${0}: Step 1  NOT executed"
+fi
+../../cesm-scripts/JRA_main.sh: Step 1  execute...
+
+LID=$(date +%y%m%d-%H%M%S)   # log ID / time-stamp
+echo "${0}: Step 2  $LID"
+../../cesm-scripts/JRA_main.sh: Step 2  210224-105321
+if [ $DO_STEP2 == "TRUE" ] ; then
+   echo "${0}: Step 2  execute..."
+   touch $DATADIR/timestamp_step2
+   touch $CASEDIR/timestamp_step2.$LID
+   sh $SCRIPTDIR/JRA_step2.sh $LID $CASEDIR  >& $CASEDIR/JRA_step2.log.$LID
+else
+   echo "${0}: Step 2  NOT executed"
+fi
+../../cesm-scripts/JRA_main.sh: Step 2  execute...
+
+LID=$(date +%y%m%d-%H%M%S)   # log ID / time-stamp
+echo "${0}: Step 3  $LID"
+../../cesm-scripts/JRA_main.sh: Step 3  210224-105344
+if [ $DO_STEP3 == "TRUE" ] ; then
+   echo "${0}: Step 3  execute..."
+   touch $DATADIR/timestamp_step3
+   touch $CASEDIR/timestamp_step3.$LID
+   sh $SCRIPTDIR/JRA_step3.sh $LID $CASEDIR  >& $CASEDIR/JRA_step3.log.$LID
+else
+   echo "${0}: Step 3  NOT executed"
+fi
+../../cesm-scripts/JRA_main.sh: Step 3  execute...
+
+LID=$(date +%y%m%d-%H%M%S)   # log ID / time-stamp
+echo "${0}: Step 4  $LID"
+../../cesm-scripts/JRA_main.sh: Step 4  210224-105529
+if [ $DO_STEP4 == "TRUE" ] ; then
+   echo "${0}: Step 4  execute..."
+   touch $DATADIR/timestamp_step4
+   touch $CASEDIR/timestamp_step4.$LID
+   sh $SCRIPTDIR/JRA_step4.sh $LID $CASEDIR  >& $CASEDIR/JRA_step4.log.$LID
+else
+   echo "${0}: Step 4  NOT executed"
+fi
+../../cesm-scripts/JRA_main.sh: Step 4  execute...
+
+LID=$(date +%y%m%d-%H%M%S)   # log ID / time-stamp
+echo "${0}: Step 5  $LID"
+../../cesm-scripts/JRA_main.sh: Step 5  210224-105542
+if [ $DO_STEP5 == "TRUE" ] ; then
+   echo "${0}: Step 5  execute..."
+   touch $DATADIR/timestamp_step5
+   touch $CASEDIR/timestamp_step5.$LID
+   sh $SCRIPTDIR/JRA_step5.sh $LID $CASEDIR  >& $CASEDIR/JRA_step5.log.$LID
+else
+   echo "${0}: Step 5  NOT executed"
+fi
+../../cesm-scripts/JRA_main.sh: Step 5  execute...
+
+LID=$(date +%y%m%d-%H%M%S)   # log ID / time-stamp
+echo "${0}: Step 6  $LID"
+../../cesm-scripts/JRA_main.sh: Step 6  210224-105554
+if [ $DO_STEP6 == "TRUE" ] ; then
+   echo "${0}: Step 6  execute..."
+   touch $DATADIR/timestamp_step6
+   touch $CASEDIR/timestamp_step6.$LID
+   sh $SCRIPTDIR/JRA_step6.sh $LID $CASEDIR  >& $CASEDIR/JRA_step6.log.$LID
+else
+   echo "${0}: Step 6  NOT executed"
+fi
+../../cesm-scripts/JRA_main.sh: Step 6  execute...
+
+LID=$(date +%y%m%d-%H%M%S)   # log ID / time-stamp
+echo "${0}: Step 7  $LID"
+../../cesm-scripts/JRA_main.sh: Step 7  210224-105618
+if [ $DO_STEP7 == "TRUE" ] ; then
+   echo "${0}: Step 7  execute..."
+   touch $DATADIR/timestamp_step7
+   touch $CASEDIR/timestamp_step7.$LID
+   sh $SCRIPTDIR/JRA_step7.sh $LID $CASEDIR  >& $CASEDIR/JRA_step7.log.$LID
+else
+   echo "${0}: Step 7  NOT executed"
+fi
+../../cesm-scripts/JRA_main.sh: Step 7  execute...
+
+LID=$(date +%y%m%d-%H%M%S)   # log ID / time-stamp
+echo "${0}: Step 8  $LID"
+../../cesm-scripts/JRA_main.sh: Step 8  210224-105622
+if [ $DO_STEP8 == "TRUE" ] ; then
+   echo "${0}: Step 8  execute..."
+   touch $DATADIR/timestamp_step8
+   touch $CASEDIR/timestamp_step8.$LID
+   sh $SCRIPTDIR/JRA_step8.sh $LID $CASEDIR  >& $CASEDIR/JRA_step8.log.$LID
+else
+   echo "${0}: Step 8  NOT executed"
+fi
+../../cesm-scripts/JRA_main.sh: Step 8  execute...
+
+LID=$(date +%y%m%d-%H%M%S)   # log ID / time-stamp
+echo "${0}: DONE.   $LID"
+../../cesm-scripts/JRA_main.sh: DONE.   210224-105749

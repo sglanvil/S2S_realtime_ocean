@@ -1,0 +1,1958 @@
+ Direct access file 
+ ../linkdir/corrfac/v1_3/jra55fcst_corrfac_v1_2_TL319r/tmp2m_ocn_corr.1999_2015.
+ dat   with unit number           20  opened
+ Unit number           20  closed
+ Direct access file 
+ ../linkdir/corrfac/v1_3/jra55fcst_corrfac_v1_2_TL319r/tmp2m_ice_corr.1999_2015.
+ dat   with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/const/TL319.mask   with unit number 
+          20  opened
+ Unit number           20  closed
+ 
+  MAIN LOOP START 
+  This step         2021           1           1           0           0
+       10800
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/brtmp.2021010100
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/ice.2021010100
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/tmp2m.2021010100
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/sph2m.2021010100
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/slprs.2021010100
+    with unit number           20  opened
+ Unit number           20  closed
+  bfm  =   0.500000000000000       afm  =   0.500000000000000     
+  monb =           12  mona =            1
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/tmp2m.2021010100
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/sph2m.2021010100
+    with unit number           20  opened
+ Unit number           20  closed
+  This step         2021           1           1           3           0
+       10800
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/brtmp.2021010103
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/ice.2021010103
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/tmp2m.2021010103
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/sph2m.2021010103
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/slprs.2021010103
+    with unit number           20  opened
+ Unit number           20  closed
+  bfm  =   0.495967741935484       afm  =   0.504032258064516     
+  monb =           12  mona =            1
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/tmp2m.2021010103
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/sph2m.2021010103
+    with unit number           20  opened
+ Unit number           20  closed
+  This step         2021           1           1           6           0
+       10800
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/brtmp.2021010106
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/ice.2021010106
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/tmp2m.2021010106
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/sph2m.2021010106
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/slprs.2021010106
+    with unit number           20  opened
+ Unit number           20  closed
+  bfm  =   0.491935483870968       afm  =   0.508064516129032     
+  monb =           12  mona =            1
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/tmp2m.2021010106
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/sph2m.2021010106
+    with unit number           20  opened
+ Unit number           20  closed
+  This step         2021           1           1           9           0
+       10800
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/brtmp.2021010109
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/ice.2021010109
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/tmp2m.2021010109
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/sph2m.2021010109
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/slprs.2021010109
+    with unit number           20  opened
+ Unit number           20  closed
+  bfm  =   0.487903225806452       afm  =   0.512096774193548     
+  monb =           12  mona =            1
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/tmp2m.2021010109
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/sph2m.2021010109
+    with unit number           20  opened
+ Unit number           20  closed
+  This step         2021           1           1          12           0
+       10800
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/brtmp.2021010112
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/ice.2021010112
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/tmp2m.2021010112
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/sph2m.2021010112
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/slprs.2021010112
+    with unit number           20  opened
+ Unit number           20  closed
+  bfm  =   0.483870967741935       afm  =   0.516129032258065     
+  monb =           12  mona =            1
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/tmp2m.2021010112
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/sph2m.2021010112
+    with unit number           20  opened
+ Unit number           20  closed
+  This step         2021           1           1          15           0
+       10800
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/brtmp.2021010115
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/ice.2021010115
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/tmp2m.2021010115
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/sph2m.2021010115
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/slprs.2021010115
+    with unit number           20  opened
+ Unit number           20  closed
+  bfm  =   0.479838709677419       afm  =   0.520161290322581     
+  monb =           12  mona =            1
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/tmp2m.2021010115
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/sph2m.2021010115
+    with unit number           20  opened
+ Unit number           20  closed
+  This step         2021           1           1          18           0
+       10800
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/brtmp.2021010118
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/ice.2021010118
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/tmp2m.2021010118
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/sph2m.2021010118
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/slprs.2021010118
+    with unit number           20  opened
+ Unit number           20  closed
+  bfm  =   0.475806451612903       afm  =   0.524193548387097     
+  monb =           12  mona =            1
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/tmp2m.2021010118
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/sph2m.2021010118
+    with unit number           20  opened
+ Unit number           20  closed
+  This step         2021           1           1          21           0
+       10800
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/brtmp.2021010121
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/ice.2021010121
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/tmp2m.2021010121
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/sph2m.2021010121
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/slprs.2021010121
+    with unit number           20  opened
+ Unit number           20  closed
+  bfm  =   0.471774193548387       afm  =   0.528225806451613     
+  monb =           12  mona =            1
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/tmp2m.2021010121
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/sph2m.2021010121
+    with unit number           20  opened
+ Unit number           20  closed
+  This step         2021           1           2           0           0
+       10800
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/brtmp.2021010200
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/ice.2021010200
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/tmp2m.2021010200
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/sph2m.2021010200
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/slprs.2021010200
+    with unit number           20  opened
+ Unit number           20  closed
+  bfm  =   0.467741935483871       afm  =   0.532258064516129     
+  monb =           12  mona =            1
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/tmp2m.2021010200
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/sph2m.2021010200
+    with unit number           20  opened
+ Unit number           20  closed
+  This step         2021           1           2           3           0
+       10800
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/brtmp.2021010203
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/ice.2021010203
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/tmp2m.2021010203
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/sph2m.2021010203
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/slprs.2021010203
+    with unit number           20  opened
+ Unit number           20  closed
+  bfm  =   0.463709677419355       afm  =   0.536290322580645     
+  monb =           12  mona =            1
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/tmp2m.2021010203
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/sph2m.2021010203
+    with unit number           20  opened
+ Unit number           20  closed
+  This step         2021           1           2           6           0
+       10800
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/brtmp.2021010206
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/ice.2021010206
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/tmp2m.2021010206
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/sph2m.2021010206
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/slprs.2021010206
+    with unit number           20  opened
+ Unit number           20  closed
+  bfm  =   0.459677419354839       afm  =   0.540322580645161     
+  monb =           12  mona =            1
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/tmp2m.2021010206
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/sph2m.2021010206
+    with unit number           20  opened
+ Unit number           20  closed
+  This step         2021           1           2           9           0
+       10800
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/brtmp.2021010209
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/ice.2021010209
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/tmp2m.2021010209
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/sph2m.2021010209
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/slprs.2021010209
+    with unit number           20  opened
+ Unit number           20  closed
+  bfm  =   0.455645161290323       afm  =   0.544354838709677     
+  monb =           12  mona =            1
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/tmp2m.2021010209
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/sph2m.2021010209
+    with unit number           20  opened
+ Unit number           20  closed
+  This step         2021           1           2          12           0
+       10800
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/brtmp.2021010212
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/ice.2021010212
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/tmp2m.2021010212
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/sph2m.2021010212
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/slprs.2021010212
+    with unit number           20  opened
+ Unit number           20  closed
+  bfm  =   0.451612903225806       afm  =   0.548387096774194     
+  monb =           12  mona =            1
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/tmp2m.2021010212
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/sph2m.2021010212
+    with unit number           20  opened
+ Unit number           20  closed
+  This step         2021           1           2          15           0
+       10800
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/brtmp.2021010215
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/ice.2021010215
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/tmp2m.2021010215
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/sph2m.2021010215
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/slprs.2021010215
+    with unit number           20  opened
+ Unit number           20  closed
+  bfm  =   0.447580645161290       afm  =   0.552419354838710     
+  monb =           12  mona =            1
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/tmp2m.2021010215
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/sph2m.2021010215
+    with unit number           20  opened
+ Unit number           20  closed
+  This step         2021           1           2          18           0
+       10800
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/brtmp.2021010218
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/ice.2021010218
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/tmp2m.2021010218
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/sph2m.2021010218
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/slprs.2021010218
+    with unit number           20  opened
+ Unit number           20  closed
+  bfm  =   0.443548387096774       afm  =   0.556451612903226     
+  monb =           12  mona =            1
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/tmp2m.2021010218
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/sph2m.2021010218
+    with unit number           20  opened
+ Unit number           20  closed
+  This step         2021           1           2          21           0
+       10800
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/brtmp.2021010221
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/ice.2021010221
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/tmp2m.2021010221
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/sph2m.2021010221
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/slprs.2021010221
+    with unit number           20  opened
+ Unit number           20  closed
+  bfm  =   0.439516129032258       afm  =   0.560483870967742     
+  monb =           12  mona =            1
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/tmp2m.2021010221
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/sph2m.2021010221
+    with unit number           20  opened
+ Unit number           20  closed
+  This step         2021           1           3           0           0
+       10800
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/brtmp.2021010300
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/ice.2021010300
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/tmp2m.2021010300
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/sph2m.2021010300
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/slprs.2021010300
+    with unit number           20  opened
+ Unit number           20  closed
+  bfm  =   0.435483870967742       afm  =   0.564516129032258     
+  monb =           12  mona =            1
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/tmp2m.2021010300
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/sph2m.2021010300
+    with unit number           20  opened
+ Unit number           20  closed
+  This step         2021           1           3           3           0
+       10800
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/brtmp.2021010303
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/ice.2021010303
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/tmp2m.2021010303
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/sph2m.2021010303
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/slprs.2021010303
+    with unit number           20  opened
+ Unit number           20  closed
+  bfm  =   0.431451612903226       afm  =   0.568548387096774     
+  monb =           12  mona =            1
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/tmp2m.2021010303
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/sph2m.2021010303
+    with unit number           20  opened
+ Unit number           20  closed
+  This step         2021           1           3           6           0
+       10800
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/brtmp.2021010306
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/ice.2021010306
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/tmp2m.2021010306
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/sph2m.2021010306
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/slprs.2021010306
+    with unit number           20  opened
+ Unit number           20  closed
+  bfm  =   0.427419354838710       afm  =   0.572580645161290     
+  monb =           12  mona =            1
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/tmp2m.2021010306
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/sph2m.2021010306
+    with unit number           20  opened
+ Unit number           20  closed
+  This step         2021           1           3           9           0
+       10800
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/brtmp.2021010309
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/ice.2021010309
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/tmp2m.2021010309
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/sph2m.2021010309
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/slprs.2021010309
+    with unit number           20  opened
+ Unit number           20  closed
+  bfm  =   0.423387096774194       afm  =   0.576612903225806     
+  monb =           12  mona =            1
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/tmp2m.2021010309
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/sph2m.2021010309
+    with unit number           20  opened
+ Unit number           20  closed
+  This step         2021           1           3          12           0
+       10800
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/brtmp.2021010312
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/ice.2021010312
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/tmp2m.2021010312
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/sph2m.2021010312
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/slprs.2021010312
+    with unit number           20  opened
+ Unit number           20  closed
+  bfm  =   0.419354838709677       afm  =   0.580645161290323     
+  monb =           12  mona =            1
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/tmp2m.2021010312
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/sph2m.2021010312
+    with unit number           20  opened
+ Unit number           20  closed
+  This step         2021           1           3          15           0
+       10800
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/brtmp.2021010315
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/ice.2021010315
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/tmp2m.2021010315
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/sph2m.2021010315
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/slprs.2021010315
+    with unit number           20  opened
+ Unit number           20  closed
+  bfm  =   0.415322580645161       afm  =   0.584677419354839     
+  monb =           12  mona =            1
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/tmp2m.2021010315
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/sph2m.2021010315
+    with unit number           20  opened
+ Unit number           20  closed
+  This step         2021           1           3          18           0
+       10800
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/brtmp.2021010318
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/ice.2021010318
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/tmp2m.2021010318
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/sph2m.2021010318
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/slprs.2021010318
+    with unit number           20  opened
+ Unit number           20  closed
+  bfm  =   0.411290322580645       afm  =   0.588709677419355     
+  monb =           12  mona =            1
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/tmp2m.2021010318
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/sph2m.2021010318
+    with unit number           20  opened
+ Unit number           20  closed
+  This step         2021           1           3          21           0
+       10800
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/brtmp.2021010321
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/ice.2021010321
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/tmp2m.2021010321
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/sph2m.2021010321
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/slprs.2021010321
+    with unit number           20  opened
+ Unit number           20  closed
+  bfm  =   0.407258064516129       afm  =   0.592741935483871     
+  monb =           12  mona =            1
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/tmp2m.2021010321
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/sph2m.2021010321
+    with unit number           20  opened
+ Unit number           20  closed
+  This step         2021           1           4           0           0
+       10800
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/brtmp.2021010400
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/ice.2021010400
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/tmp2m.2021010400
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/sph2m.2021010400
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/slprs.2021010400
+    with unit number           20  opened
+ Unit number           20  closed
+  bfm  =   0.403225806451613       afm  =   0.596774193548387     
+  monb =           12  mona =            1
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/tmp2m.2021010400
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/sph2m.2021010400
+    with unit number           20  opened
+ Unit number           20  closed
+  This step         2021           1           4           3           0
+       10800
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/brtmp.2021010403
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/ice.2021010403
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/tmp2m.2021010403
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/sph2m.2021010403
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/slprs.2021010403
+    with unit number           20  opened
+ Unit number           20  closed
+  bfm  =   0.399193548387097       afm  =   0.600806451612903     
+  monb =           12  mona =            1
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/tmp2m.2021010403
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/sph2m.2021010403
+    with unit number           20  opened
+ Unit number           20  closed
+  This step         2021           1           4           6           0
+       10800
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/brtmp.2021010406
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/ice.2021010406
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/tmp2m.2021010406
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/sph2m.2021010406
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/slprs.2021010406
+    with unit number           20  opened
+ Unit number           20  closed
+  bfm  =   0.395161290322581       afm  =   0.604838709677419     
+  monb =           12  mona =            1
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/tmp2m.2021010406
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/sph2m.2021010406
+    with unit number           20  opened
+ Unit number           20  closed
+  This step         2021           1           4           9           0
+       10800
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/brtmp.2021010409
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/ice.2021010409
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/tmp2m.2021010409
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/sph2m.2021010409
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/slprs.2021010409
+    with unit number           20  opened
+ Unit number           20  closed
+  bfm  =   0.391129032258065       afm  =   0.608870967741935     
+  monb =           12  mona =            1
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/tmp2m.2021010409
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/sph2m.2021010409
+    with unit number           20  opened
+ Unit number           20  closed
+  This step         2021           1           4          12           0
+       10800
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/brtmp.2021010412
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/ice.2021010412
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/tmp2m.2021010412
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/sph2m.2021010412
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/slprs.2021010412
+    with unit number           20  opened
+ Unit number           20  closed
+  bfm  =   0.387096774193548       afm  =   0.612903225806452     
+  monb =           12  mona =            1
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/tmp2m.2021010412
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/sph2m.2021010412
+    with unit number           20  opened
+ Unit number           20  closed
+  This step         2021           1           4          15           0
+       10800
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/brtmp.2021010415
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/ice.2021010415
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/tmp2m.2021010415
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/sph2m.2021010415
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/slprs.2021010415
+    with unit number           20  opened
+ Unit number           20  closed
+  bfm  =   0.383064516129032       afm  =   0.616935483870968     
+  monb =           12  mona =            1
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/tmp2m.2021010415
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/sph2m.2021010415
+    with unit number           20  opened
+ Unit number           20  closed
+  This step         2021           1           4          18           0
+       10800
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/brtmp.2021010418
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/ice.2021010418
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/tmp2m.2021010418
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/sph2m.2021010418
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/slprs.2021010418
+    with unit number           20  opened
+ Unit number           20  closed
+  bfm  =   0.379032258064516       afm  =   0.620967741935484     
+  monb =           12  mona =            1
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/tmp2m.2021010418
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/sph2m.2021010418
+    with unit number           20  opened
+ Unit number           20  closed
+  This step         2021           1           4          21           0
+       10800
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/brtmp.2021010421
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/ice.2021010421
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/tmp2m.2021010421
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/sph2m.2021010421
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/slprs.2021010421
+    with unit number           20  opened
+ Unit number           20  closed
+  bfm  =   0.375000000000000       afm  =   0.625000000000000     
+  monb =           12  mona =            1
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/tmp2m.2021010421
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/sph2m.2021010421
+    with unit number           20  opened
+ Unit number           20  closed
+  This step         2021           1           5           0           0
+       10800
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/brtmp.2021010500
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/ice.2021010500
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/tmp2m.2021010500
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/sph2m.2021010500
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/slprs.2021010500
+    with unit number           20  opened
+ Unit number           20  closed
+  bfm  =   0.370967741935484       afm  =   0.629032258064516     
+  monb =           12  mona =            1
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/tmp2m.2021010500
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/sph2m.2021010500
+    with unit number           20  opened
+ Unit number           20  closed
+  This step         2021           1           5           3           0
+       10800
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/brtmp.2021010503
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/ice.2021010503
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/tmp2m.2021010503
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/sph2m.2021010503
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/slprs.2021010503
+    with unit number           20  opened
+ Unit number           20  closed
+  bfm  =   0.366935483870968       afm  =   0.633064516129032     
+  monb =           12  mona =            1
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/tmp2m.2021010503
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/sph2m.2021010503
+    with unit number           20  opened
+ Unit number           20  closed
+  This step         2021           1           5           6           0
+       10800
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/brtmp.2021010506
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/ice.2021010506
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/tmp2m.2021010506
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/sph2m.2021010506
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/slprs.2021010506
+    with unit number           20  opened
+ Unit number           20  closed
+  bfm  =   0.362903225806452       afm  =   0.637096774193548     
+  monb =           12  mona =            1
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/tmp2m.2021010506
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/sph2m.2021010506
+    with unit number           20  opened
+ Unit number           20  closed
+  This step         2021           1           5           9           0
+       10800
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/brtmp.2021010509
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/ice.2021010509
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/tmp2m.2021010509
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/sph2m.2021010509
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/slprs.2021010509
+    with unit number           20  opened
+ Unit number           20  closed
+  bfm  =   0.358870967741935       afm  =   0.641129032258065     
+  monb =           12  mona =            1
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/tmp2m.2021010509
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/sph2m.2021010509
+    with unit number           20  opened
+ Unit number           20  closed
+  This step         2021           1           5          12           0
+       10800
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/brtmp.2021010512
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/ice.2021010512
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/tmp2m.2021010512
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/sph2m.2021010512
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/slprs.2021010512
+    with unit number           20  opened
+ Unit number           20  closed
+  bfm  =   0.354838709677419       afm  =   0.645161290322581     
+  monb =           12  mona =            1
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/tmp2m.2021010512
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/sph2m.2021010512
+    with unit number           20  opened
+ Unit number           20  closed
+  This step         2021           1           5          15           0
+       10800
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/brtmp.2021010515
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/ice.2021010515
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/tmp2m.2021010515
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/sph2m.2021010515
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/slprs.2021010515
+    with unit number           20  opened
+ Unit number           20  closed
+  bfm  =   0.350806451612903       afm  =   0.649193548387097     
+  monb =           12  mona =            1
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/tmp2m.2021010515
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/sph2m.2021010515
+    with unit number           20  opened
+ Unit number           20  closed
+  This step         2021           1           5          18           0
+       10800
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/brtmp.2021010518
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/ice.2021010518
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/tmp2m.2021010518
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/sph2m.2021010518
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/slprs.2021010518
+    with unit number           20  opened
+ Unit number           20  closed
+  bfm  =   0.346774193548387       afm  =   0.653225806451613     
+  monb =           12  mona =            1
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/tmp2m.2021010518
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/sph2m.2021010518
+    with unit number           20  opened
+ Unit number           20  closed
+  This step         2021           1           5          21           0
+       10800
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/brtmp.2021010521
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/ice.2021010521
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/tmp2m.2021010521
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/sph2m.2021010521
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/slprs.2021010521
+    with unit number           20  opened
+ Unit number           20  closed
+  bfm  =   0.342741935483871       afm  =   0.657258064516129     
+  monb =           12  mona =            1
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/tmp2m.2021010521
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/sph2m.2021010521
+    with unit number           20  opened
+ Unit number           20  closed
+  This step         2021           1           6           0           0
+       10800
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/brtmp.2021010600
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/ice.2021010600
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/tmp2m.2021010600
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/sph2m.2021010600
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/slprs.2021010600
+    with unit number           20  opened
+ Unit number           20  closed
+  bfm  =   0.338709677419355       afm  =   0.661290322580645     
+  monb =           12  mona =            1
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/tmp2m.2021010600
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/sph2m.2021010600
+    with unit number           20  opened
+ Unit number           20  closed
+  This step         2021           1           6           3           0
+       10800
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/brtmp.2021010603
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/ice.2021010603
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/tmp2m.2021010603
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/sph2m.2021010603
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/slprs.2021010603
+    with unit number           20  opened
+ Unit number           20  closed
+  bfm  =   0.334677419354839       afm  =   0.665322580645161     
+  monb =           12  mona =            1
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/tmp2m.2021010603
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/sph2m.2021010603
+    with unit number           20  opened
+ Unit number           20  closed
+  This step         2021           1           6           6           0
+       10800
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/brtmp.2021010606
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/ice.2021010606
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/tmp2m.2021010606
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/sph2m.2021010606
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/slprs.2021010606
+    with unit number           20  opened
+ Unit number           20  closed
+  bfm  =   0.330645161290323       afm  =   0.669354838709677     
+  monb =           12  mona =            1
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/tmp2m.2021010606
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/sph2m.2021010606
+    with unit number           20  opened
+ Unit number           20  closed
+  This step         2021           1           6           9           0
+       10800
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/brtmp.2021010609
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/ice.2021010609
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/tmp2m.2021010609
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/sph2m.2021010609
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/slprs.2021010609
+    with unit number           20  opened
+ Unit number           20  closed
+  bfm  =   0.326612903225806       afm  =   0.673387096774194     
+  monb =           12  mona =            1
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/tmp2m.2021010609
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/sph2m.2021010609
+    with unit number           20  opened
+ Unit number           20  closed
+  This step         2021           1           6          12           0
+       10800
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/brtmp.2021010612
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/ice.2021010612
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/tmp2m.2021010612
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/sph2m.2021010612
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/slprs.2021010612
+    with unit number           20  opened
+ Unit number           20  closed
+  bfm  =   0.322580645161290       afm  =   0.677419354838710     
+  monb =           12  mona =            1
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/tmp2m.2021010612
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/sph2m.2021010612
+    with unit number           20  opened
+ Unit number           20  closed
+  This step         2021           1           6          15           0
+       10800
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/brtmp.2021010615
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/ice.2021010615
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/tmp2m.2021010615
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/sph2m.2021010615
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/slprs.2021010615
+    with unit number           20  opened
+ Unit number           20  closed
+  bfm  =   0.318548387096774       afm  =   0.681451612903226     
+  monb =           12  mona =            1
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/tmp2m.2021010615
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/sph2m.2021010615
+    with unit number           20  opened
+ Unit number           20  closed
+  This step         2021           1           6          18           0
+       10800
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/brtmp.2021010618
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/ice.2021010618
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/tmp2m.2021010618
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/sph2m.2021010618
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/slprs.2021010618
+    with unit number           20  opened
+ Unit number           20  closed
+  bfm  =   0.314516129032258       afm  =   0.685483870967742     
+  monb =           12  mona =            1
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/tmp2m.2021010618
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/sph2m.2021010618
+    with unit number           20  opened
+ Unit number           20  closed
+  This step         2021           1           6          21           0
+       10800
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/brtmp.2021010621
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/ice.2021010621
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/tmp2m.2021010621
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/sph2m.2021010621
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/slprs.2021010621
+    with unit number           20  opened
+ Unit number           20  closed
+  bfm  =   0.310483870967742       afm  =   0.689516129032258     
+  monb =           12  mona =            1
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/tmp2m.2021010621
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/sph2m.2021010621
+    with unit number           20  opened
+ Unit number           20  closed
+  This step         2021           1           7           0           0
+       10800
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/brtmp.2021010700
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/ice.2021010700
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/tmp2m.2021010700
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/sph2m.2021010700
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/slprs.2021010700
+    with unit number           20  opened
+ Unit number           20  closed
+  bfm  =   0.306451612903226       afm  =   0.693548387096774     
+  monb =           12  mona =            1
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/tmp2m.2021010700
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/sph2m.2021010700
+    with unit number           20  opened
+ Unit number           20  closed
+  This step         2021           1           7           3           0
+       10800
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/brtmp.2021010703
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/ice.2021010703
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/tmp2m.2021010703
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/sph2m.2021010703
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/slprs.2021010703
+    with unit number           20  opened
+ Unit number           20  closed
+  bfm  =   0.302419354838710       afm  =   0.697580645161290     
+  monb =           12  mona =            1
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/tmp2m.2021010703
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/sph2m.2021010703
+    with unit number           20  opened
+ Unit number           20  closed
+  This step         2021           1           7           6           0
+       10800
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/brtmp.2021010706
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/ice.2021010706
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/tmp2m.2021010706
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/sph2m.2021010706
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/slprs.2021010706
+    with unit number           20  opened
+ Unit number           20  closed
+  bfm  =   0.298387096774194       afm  =   0.701612903225806     
+  monb =           12  mona =            1
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/tmp2m.2021010706
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/sph2m.2021010706
+    with unit number           20  opened
+ Unit number           20  closed
+  This step         2021           1           7           9           0
+       10800
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/brtmp.2021010709
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/ice.2021010709
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/tmp2m.2021010709
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/sph2m.2021010709
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/slprs.2021010709
+    with unit number           20  opened
+ Unit number           20  closed
+  bfm  =   0.294354838709677       afm  =   0.705645161290323     
+  monb =           12  mona =            1
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/tmp2m.2021010709
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/sph2m.2021010709
+    with unit number           20  opened
+ Unit number           20  closed
+  This step         2021           1           7          12           0
+       10800
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/brtmp.2021010712
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/ice.2021010712
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/tmp2m.2021010712
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/sph2m.2021010712
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/slprs.2021010712
+    with unit number           20  opened
+ Unit number           20  closed
+  bfm  =   0.290322580645161       afm  =   0.709677419354839     
+  monb =           12  mona =            1
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/tmp2m.2021010712
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/sph2m.2021010712
+    with unit number           20  opened
+ Unit number           20  closed
+  This step         2021           1           7          15           0
+       10800
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/brtmp.2021010715
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/ice.2021010715
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/tmp2m.2021010715
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/sph2m.2021010715
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/slprs.2021010715
+    with unit number           20  opened
+ Unit number           20  closed
+  bfm  =   0.286290322580645       afm  =   0.713709677419355     
+  monb =           12  mona =            1
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/tmp2m.2021010715
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/sph2m.2021010715
+    with unit number           20  opened
+ Unit number           20  closed
+  This step         2021           1           7          18           0
+       10800
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/brtmp.2021010718
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/ice.2021010718
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/tmp2m.2021010718
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/sph2m.2021010718
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/slprs.2021010718
+    with unit number           20  opened
+ Unit number           20  closed
+  bfm  =   0.282258064516129       afm  =   0.717741935483871     
+  monb =           12  mona =            1
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/tmp2m.2021010718
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/sph2m.2021010718
+    with unit number           20  opened
+ Unit number           20  closed
+  This step         2021           1           7          21           0
+       10800
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/brtmp.2021010721
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/ice.2021010721
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/tmp2m.2021010721
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/sph2m.2021010721
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/slprs.2021010721
+    with unit number           20  opened
+ Unit number           20  closed
+  bfm  =   0.278225806451613       afm  =   0.721774193548387     
+  monb =           12  mona =            1
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/tmp2m.2021010721
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/sph2m.2021010721
+    with unit number           20  opened
+ Unit number           20  closed
+  This step         2021           1           8           0           0
+       10800
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/brtmp.2021010800
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/ice.2021010800
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/tmp2m.2021010800
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/sph2m.2021010800
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/slprs.2021010800
+    with unit number           20  opened
+ Unit number           20  closed
+  bfm  =   0.274193548387097       afm  =   0.725806451612903     
+  monb =           12  mona =            1
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/tmp2m.2021010800
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/sph2m.2021010800
+    with unit number           20  opened
+ Unit number           20  closed
+  This step         2021           1           8           3           0
+       10800
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/brtmp.2021010803
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/ice.2021010803
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/tmp2m.2021010803
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/sph2m.2021010803
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/slprs.2021010803
+    with unit number           20  opened
+ Unit number           20  closed
+  bfm  =   0.270161290322581       afm  =   0.729838709677419     
+  monb =           12  mona =            1
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/tmp2m.2021010803
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/sph2m.2021010803
+    with unit number           20  opened
+ Unit number           20  closed
+  This step         2021           1           8           6           0
+       10800
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/brtmp.2021010806
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/ice.2021010806
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/tmp2m.2021010806
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/sph2m.2021010806
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/slprs.2021010806
+    with unit number           20  opened
+ Unit number           20  closed
+  bfm  =   0.266129032258065       afm  =   0.733870967741935     
+  monb =           12  mona =            1
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/tmp2m.2021010806
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/sph2m.2021010806
+    with unit number           20  opened
+ Unit number           20  closed
+  This step         2021           1           8           9           0
+       10800
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/brtmp.2021010809
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/ice.2021010809
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/tmp2m.2021010809
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/sph2m.2021010809
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/slprs.2021010809
+    with unit number           20  opened
+ Unit number           20  closed
+  bfm  =   0.262096774193548       afm  =   0.737903225806452     
+  monb =           12  mona =            1
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/tmp2m.2021010809
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/sph2m.2021010809
+    with unit number           20  opened
+ Unit number           20  closed
+  This step         2021           1           8          12           0
+       10800
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/brtmp.2021010812
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/ice.2021010812
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/tmp2m.2021010812
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/sph2m.2021010812
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/slprs.2021010812
+    with unit number           20  opened
+ Unit number           20  closed
+  bfm  =   0.258064516129032       afm  =   0.741935483870968     
+  monb =           12  mona =            1
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/tmp2m.2021010812
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/sph2m.2021010812
+    with unit number           20  opened
+ Unit number           20  closed
+  This step         2021           1           8          15           0
+       10800
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/brtmp.2021010815
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/ice.2021010815
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/tmp2m.2021010815
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/sph2m.2021010815
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/slprs.2021010815
+    with unit number           20  opened
+ Unit number           20  closed
+  bfm  =   0.254032258064516       afm  =   0.745967741935484     
+  monb =           12  mona =            1
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/tmp2m.2021010815
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/sph2m.2021010815
+    with unit number           20  opened
+ Unit number           20  closed
+  This step         2021           1           8          18           0
+       10800
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/brtmp.2021010818
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/ice.2021010818
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/tmp2m.2021010818
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/sph2m.2021010818
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/slprs.2021010818
+    with unit number           20  opened
+ Unit number           20  closed
+  bfm  =   0.250000000000000       afm  =   0.750000000000000     
+  monb =           12  mona =            1
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/tmp2m.2021010818
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/sph2m.2021010818
+    with unit number           20  opened
+ Unit number           20  closed
+  This step         2021           1           8          21           0
+       10800
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/brtmp.2021010821
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/ice.2021010821
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/tmp2m.2021010821
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/sph2m.2021010821
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/slprs.2021010821
+    with unit number           20  opened
+ Unit number           20  closed
+  bfm  =   0.245967741935484       afm  =   0.754032258064516     
+  monb =           12  mona =            1
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/tmp2m.2021010821
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/sph2m.2021010821
+    with unit number           20  opened
+ Unit number           20  closed
+  This step         2021           1           9           0           0
+       10800
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/brtmp.2021010900
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/ice.2021010900
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/tmp2m.2021010900
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/sph2m.2021010900
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/slprs.2021010900
+    with unit number           20  opened
+ Unit number           20  closed
+  bfm  =   0.241935483870968       afm  =   0.758064516129032     
+  monb =           12  mona =            1
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/tmp2m.2021010900
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/sph2m.2021010900
+    with unit number           20  opened
+ Unit number           20  closed
+  This step         2021           1           9           3           0
+       10800
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/brtmp.2021010903
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/ice.2021010903
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/tmp2m.2021010903
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/sph2m.2021010903
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/slprs.2021010903
+    with unit number           20  opened
+ Unit number           20  closed
+  bfm  =   0.237903225806452       afm  =   0.762096774193548     
+  monb =           12  mona =            1
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/tmp2m.2021010903
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/sph2m.2021010903
+    with unit number           20  opened
+ Unit number           20  closed
+  This step         2021           1           9           6           0
+       10800
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/brtmp.2021010906
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/ice.2021010906
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/tmp2m.2021010906
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/sph2m.2021010906
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/slprs.2021010906
+    with unit number           20  opened
+ Unit number           20  closed
+  bfm  =   0.233870967741935       afm  =   0.766129032258065     
+  monb =           12  mona =            1
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/tmp2m.2021010906
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/sph2m.2021010906
+    with unit number           20  opened
+ Unit number           20  closed
+  This step         2021           1           9           9           0
+       10800
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/brtmp.2021010909
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/ice.2021010909
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/tmp2m.2021010909
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/sph2m.2021010909
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/slprs.2021010909
+    with unit number           20  opened
+ Unit number           20  closed
+  bfm  =   0.229838709677419       afm  =   0.770161290322581     
+  monb =           12  mona =            1
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/tmp2m.2021010909
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/sph2m.2021010909
+    with unit number           20  opened
+ Unit number           20  closed
+  This step         2021           1           9          12           0
+       10800
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/brtmp.2021010912
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/ice.2021010912
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/tmp2m.2021010912
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/sph2m.2021010912
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/slprs.2021010912
+    with unit number           20  opened
+ Unit number           20  closed
+  bfm  =   0.225806451612903       afm  =   0.774193548387097     
+  monb =           12  mona =            1
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/tmp2m.2021010912
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/sph2m.2021010912
+    with unit number           20  opened
+ Unit number           20  closed
+  This step         2021           1           9          15           0
+       10800
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/brtmp.2021010915
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/ice.2021010915
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/tmp2m.2021010915
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/sph2m.2021010915
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/slprs.2021010915
+    with unit number           20  opened
+ Unit number           20  closed
+  bfm  =   0.221774193548387       afm  =   0.778225806451613     
+  monb =           12  mona =            1
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/tmp2m.2021010915
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/sph2m.2021010915
+    with unit number           20  opened
+ Unit number           20  closed
+  This step         2021           1           9          18           0
+       10800
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/brtmp.2021010918
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/ice.2021010918
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/tmp2m.2021010918
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/sph2m.2021010918
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/slprs.2021010918
+    with unit number           20  opened
+ Unit number           20  closed
+  bfm  =   0.217741935483871       afm  =   0.782258064516129     
+  monb =           12  mona =            1
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/tmp2m.2021010918
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/sph2m.2021010918
+    with unit number           20  opened
+ Unit number           20  closed
+  This step         2021           1           9          21           0
+       10800
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/brtmp.2021010921
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/ice.2021010921
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/tmp2m.2021010921
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/sph2m.2021010921
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file ../linkdir/work/jra55fcst_3hr_TL319r/202101/slprs.2021010921
+    with unit number           20  opened
+ Unit number           20  closed
+  bfm  =   0.213709677419355       afm  =   0.786290322580645     
+  monb =           12  mona =            1
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/tmp2m.2021010921
+    with unit number           20  opened
+ Unit number           20  closed
+ Direct access file 
+ ../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202101/sph2m.2021010921
+    with unit number           20  opened
+ Unit number           20  closed
+  MAIN LOOP END 

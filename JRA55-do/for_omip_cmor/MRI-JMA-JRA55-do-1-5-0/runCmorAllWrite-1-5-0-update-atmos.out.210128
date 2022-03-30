@@ -1,0 +1,16 @@
+
+! ------
+! All files were closed successfully. 
+! ------
+! 
+key,var: A3hr rain
+filePath: input_atmos/rain.2020.20210107.nc
+cmorTable: Tables/input4MIPs_A3hr.json
+inputVarName: prrn
+outputVarName: prra
+outputUnits: kg m-2 s-1
+Source data read start..
+Source data read end..
+Start CMORizing..
+Start CMOR write..
+End CMOR write..

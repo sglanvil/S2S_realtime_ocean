@@ -1,0 +1,79 @@
+/glade/u/home/ssfcst/JRA55-do/cesm-scripts/JRA_step2.sh ENTER
+#trap '[[ $BASH_COMMAND != echo* ]] && $BASH_COMMAND' DEBUG
+
+# LID=$(date +%y%m%d-%H%M%S)
+# LOGFILE=$(pwd)/master.$YEAR.log.$LID
+#-------------------------------------------------------------------------------
+
+
+DATADIR=/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data # work dir for input, output, intermediate data
+HOMEDIR=/glade/u/home/ssfcst/JRA55-do                # root dir for all JRA55-do scripts (repo root dir)
+SCRIPTDIR=/glade/u/home/ssfcst/JRA55-do/cesm-scripts # where the CESM wrapper scripts are
+
+YEARs=2021    # start date: year 
+MONTHs=1      # start date: month 
+DAYs=1        # start date: day of month
+ODAYs=1       # start date: ordinal day (day in year)
+
+YEARe=2021    # end date: year 
+MONTHe=6      # end date: month of year
+DAYe=1       # end date: day of month
+ODAYe=152      # end date: ordinal day
+DATESTRe=20210601 # end date: text string for netCDF file name
+
+YEARp=2021    # end date: year 
+MONTHp=6      # day after end date: month of year
+DAYp=2       # day after end date: day of month
+
+DATESTRc=20210601 # file creation date text string for netCDF file name
+
+COMPILE=FALSE   # TRUE => compile code
+DOWNLOAD=TRUE   # download ftp data
+
+DO_STEP0=FALSE
+DO_STEP1=TRUE
+DO_STEP2=TRUE
+DO_STEP3=TRUE
+DO_STEP4=TRUE
+DO_STEP5=TRUE
+DO_STEP6=TRUE
+DO_STEP7=TRUE
+DO_STEP8=TRUE 
+LOGFILE=${CASEDIR}/${0}.${LID}
+echo "$0 LOGFILE = $LOGFILE"
+/glade/u/home/ssfcst/JRA55-do/cesm-scripts/JRA_step2.sh LOGFILE = /glade/u/home/ssfcst/JRA55-do/cesm-cases/case_210601//glade/u/home/ssfcst/JRA55-do/cesm-scripts/JRA_step2.sh.210607-102916
+echo "$0 HOMEDIR = $LOGFILE"
+/glade/u/home/ssfcst/JRA55-do/cesm-scripts/JRA_step2.sh HOMEDIR = /glade/u/home/ssfcst/JRA55-do/cesm-cases/case_210601//glade/u/home/ssfcst/JRA55-do/cesm-scripts/JRA_step2.sh.210607-102916
+#-------------------------------------------------------------------------------
+
+echo "==========================================================================="
+===========================================================================
+echo "2. Update COBE SST data"
+2. Update COBE SST data
+echo "==========================================================================="
+===========================================================================
+
+#-----------------------------------------------------------------------------------------
+echo " Download COBE-SST data ---------------------------------------------------"
+ Download COBE-SST data ---------------------------------------------------
+#-----------------------------------------------------------------------------------------
+
+if [ $DOWNLOAD != "TRUE" ] ; then
+   echo "No data downloading."
+else
+   cd $DATADIR/COBESST/daily/grib 
+   pwd
+   wget --no-check-certificate --backups=5 https://climate.mri-jma.go.jp/~htsujino/userspace/JRA55-do/repos/cobesst_daily/sst-glb.2019.dat
+   wget --no-check-certificate --backups=5 https://climate.mri-jma.go.jp/~htsujino/userspace/JRA55-do/repos/cobesst_daily/sst-glb.2020.dat
+   wget --no-check-certificate --backups=5 https://climate.mri-jma.go.jp/~htsujino/userspace/JRA55-do/repos/cobesst_daily/sst-glb.2021.dat
+
+#--- don't need this monthly data ---
+#  cd $DATADIR/COBESST/monthly/grib 
+#  pwd
+#  wget --no-check-certificate --backups=5 https://climate.mri-jma.go.jp/~htsujino/userspace/JRA55-do/repos/cobesst_monthly/sst-glb.2019.dat
+#  wget --no-check-certificate --backups=5 https://climate.mri-jma.go.jp/~htsujino/userspace/JRA55-do/repos/cobesst_monthly/sst-glb.2020.dat
+#  wget --no-check-certificate --backups=5 https://climate.mri-jma.go.jp/~htsujino/userspace/JRA55-do/repos/cobesst_monthly/sst-glb.2021.dat
+fi
+/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data/COBESST/daily/grib
+
+Redirecting output to ‘wget-log.69’.

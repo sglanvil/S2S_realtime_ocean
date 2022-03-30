@@ -1,0 +1,221 @@
+/glade/u/home/ssfcst/JRA55-do/cesm-scripts/JRA_step3.sh ENTER
+#trap '[[ $BASH_COMMAND != echo* ]] && $BASH_COMMAND' DEBUG
+#-------------------------------------------------------------------------------
+# LID=$(date +%y%m%d-%H%M%S)
+# LOGFILE=$(pwd)/master.$YEAR.log.$LID
+
+
+DATADIR=/glade/scratch/ssfcst/JRA55_data             # where input, output, & intermediate data is here
+HOMEDIR=/glade/u/home/ssfcst//JRA55-do               # where the standard JRA55-do scripts are
+SCRIPTDIR=/glade/u/home/ssfcst/JRA55-do/cesm-scripts # where the CESM wrapper scripts are
+
+YEARs=2020    # start date: year 
+MONTHs=1      # start date: month 
+DAYs=1        # start date: day in month
+ODAYs=1       # start date: ordinal day (day in year)
+
+YEARe=2020    # end date: year -- ?  assume YEARs = YEARe
+MONTHe=2      # end date: month 
+DAYe=29       # end date: day in month
+ODAYe=60      # end date: ordinal day
+DATESTRe=2020-02-29 # end date: text string for netCDF file name
+
+DATESTRc=20210106 # end date: text string for netCDF file name
+
+YEARp=2020    # end date: year -- ?  assume YEARs = YEARp
+MONTHp=3      # day after end date: month
+DAYp=1        # day after end date: day
+ODAYp=61      # day after end date: ordinal day
+
+COMPILE=TRUE    # TRUE => compile code
+DOWNLOAD=TRUE   # download ftp data
+
+DO_STEP0=FALSE
+DO_STEP1=FALSE
+DO_STEP2=FALSE
+DO_STEP3=TRUE
+DO_STEP4=FALSE
+DO_STEP5=FALSE
+DO_STEP6=FALSE
+DO_STEP7=FALSE
+DO_STEP8=FALSE
+LOGFILE=${CASEDIR}/${0}.${LID}
+echo "$0 LOGFILE = $LOGFILE"
+/glade/u/home/ssfcst/JRA55-do/cesm-scripts/JRA_step3.sh LOGFILE = /glade/u/home/ssfcst/JRA55-do/cesmTEST202002//glade/u/home/ssfcst/JRA55-do/cesm-scripts/JRA_step3.sh.210106-234417
+echo "$0 HOMEDIR = $LOGFILE"
+/glade/u/home/ssfcst/JRA55-do/cesm-scripts/JRA_step3.sh HOMEDIR = /glade/u/home/ssfcst/JRA55-do/cesmTEST202002//glade/u/home/ssfcst/JRA55-do/cesm-scripts/JRA_step3.sh.210106-234417
+#-------------------------------------------------------------------------------
+
+echo "==========================================================================="
+===========================================================================
+echo "3. Adjustment of surface atmospheric variables"
+3. Adjustment of surface atmospheric variables
+echo "==========================================================================="
+===========================================================================
+
+#-----------------------------------------------------------------------------------------
+echo " Air temperature ----------------------------------------------------------"
+ Air temperature ----------------------------------------------------------
+echo "tStamp: $(date +%y%m%d-%H%M%S)"
+tStamp: 210106-234417
+#-----------------------------------------------------------------------------------------
+
+cd $HOMEDIR/jra55_org_grid_calib
+pwd
+/glade/u/home/ssfcst/JRA55-do/jra55_org_grid_calib
+
+if [ $COMPILE == "TRUE" ] ; then
+   gmake calib_tmp2m_interannual
+fi
+gmake: `calib_tmp2m_interannual' is up to date.
+
+LOGFILE=$CASEDIR/calib_tmp2m_v1_2_interannual_latest_exec.log.$LID
+time ./calib_tmp2m_v1_2_interannual_latest_exec.sh $YEARs $MONTHs $DAYs   $YEARp $MONTHp $DAYp  >& $LOGFILE
+
+real	1m8.225s
+user	0m2.987s
+sys	0m1.187s
+mv calib_v1_2_tmp2m_latest.log $CASEDIR/calib_v1_2_tmp2m_latest.log.$LID
+#  input: DATADIR/ ???
+# output: .../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/<yyyymm>/
+
+#-----------------------------------------------------------------------------------------
+echo " Specific humidity --------------------------------------------------------"
+ Specific humidity --------------------------------------------------------
+echo "tStamp: $(date +%y%m%d-%H%M%S)"
+tStamp: 210106-234525
+#-----------------------------------------------------------------------------------------
+
+cd $HOMEDIR/jra55_org_grid_calib
+pwd
+/glade/u/home/ssfcst/JRA55-do/jra55_org_grid_calib
+
+if [ $COMPILE == "TRUE" ] ; then
+   gmake calib_sph2m_interannual
+fi
+gmake: `calib_sph2m_interannual' is up to date.
+
+
+LOGFILE=$CASEDIR/calib_sph2m_v1_2_interannual_latest_exec.log.$LID
+time ./calib_sph2m_v1_2_interannual_latest_exec.sh $YEARs $MONTHs $DAYs  $YEARp $MONTHp $DAYp  >& $LOGFILE
+
+real	0m13.676s
+user	0m0.358s
+sys	0m0.362s
+mv calib_v1_2_sph2m_latest.log $CASEDIR/calib_v1_2_sph2m_latest.log.$LID
+#  input: DATADIR/ ???
+# output: .../linkdir/work/jra55fcst_v1_2_3hr_sph2m_TL319r/<yyyymm>/
+
+#-----------------------------------------------------------------------------------------
+echo " Compute equivalent neutral wind ------------------------------------------"
+ Compute equivalent neutral wind ------------------------------------------
+echo "tStamp: $(date +%y%m%d-%H%M%S)"
+tStamp: 210106-234539
+#-----------------------------------------------------------------------------------------
+
+cd $HOMEDIR/jra55_org_grid_anl   
+pwd
+/glade/u/home/ssfcst/JRA55-do/jra55_org_grid_anl
+
+if [ $COMPILE == "TRUE" ] ; then
+   gmake diag_neutral_wind
+fi
+gmake: `diag_neutral_wind' is up to date.
+
+LOGFILE=$CASEDIR/jra55fcst_filt_v1_2tq_neutral_wind_exec.log.$LID
+time ./jra55fcst_filt_v1_2tq_neutral_wind_exec.sh $YEARs $YEARe $ODAYs $ODAYe  >& $LOGFILE
+
+real	2m51.601s
+user	1m6.723s
+sys	0m19.030s
+#  input: .../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/<yyyymm>/
+#  input: .../linkdir/work/jra55fcst_v1_2_3hr_sph2m_TL319r/<yyyymm>/
+#  input: .../linkdir/COBESST/daily/grads/
+# output: .../linkdir/work/jra55fcst_filt_v1_2tq_3hr_TL319r
+
+#-----------------------------------------------------------------------------------------
+echo " Adjustment of the equivalent neutral wind --------------------------------"
+ Adjustment of the equivalent neutral wind --------------------------------
+echo "tStamp: $(date +%y%m%d-%H%M%S)"
+tStamp: 210106-234831
+#-----------------------------------------------------------------------------------------
+
+cd $HOMEDIR/jra55_org_grid_calib
+pwd
+/glade/u/home/ssfcst/JRA55-do/jra55_org_grid_calib
+
+if [ $COMPILE == "TRUE" ] ; then
+   gmake calib_wind_offset_interannual
+fi
+ifort src/calib_wind_offset_interannual.F90 -c -convert big_endian -assume byterecl -I ../lib  -o calib_wind_offset_interannual.o
+ifort calib_wind_offset_interannual.o lib.a  -L ../lib -lmxe -o calib_wind_offset_interannual
+rm calib_wind_offset_interannual.o
+
+LOGFILE=$CASEDIR/calib_wind_v1_3_interannual_latest_exec.log.$LID
+time ./calib_wind_v1_3_interannual_latest_exec.sh $YEARs $MONTHs $DAYs $YEARp $MONTHp $DAYp >& $LOGFILE
+
+real	0m20.098s
+user	0m3.065s
+sys	0m0.548s
+mv calib_wind_v1_3_latest.log $CASEDIR/calib_wind_v1_3_latest.log.$LID
+#  input: .../linkdir/work/jra55fcst_filt_v1_2tq_3hr_TL319r ??
+# output: .../linkdir/work/jra55fcst_filt_v1_3_3hr_wind_TL319r
+
+#-----------------------------------------------------------------------------------------
+echo " Shift the data to 10m: actual wind, temperature, specific humidity -------"
+ Shift the data to 10m: actual wind, temperature, specific humidity -------
+echo "tStamp: $(date +%y%m%d-%H%M%S)"
+tStamp: 210106-234852
+#-----------------------------------------------------------------------------------------
+
+cd $HOMEDIR/jra55_org_grid_anl   
+pwd
+/glade/u/home/ssfcst/JRA55-do/jra55_org_grid_anl
+
+if [ $COMPILE == "TRUE" ] ; then
+   gmake diag_actual_wind
+fi
+ifort src/diag_actual_wind.F90 -c -convert big_endian -assume byterecl -qopenmp -I ../lib -o diag_actual_wind.o
+ifort src/shift_wind_neutral_to_real.F90 -c -convert big_endian -assume byterecl -qopenmp -I ../lib -o shift_wind_neutral_to_real.o
+ifort diag_actual_wind.o lib.a shift_wind_neutral_to_real.o  -L ../lib -lmxe -qopenmp -o diag_actual_wind
+
+LOGFILE=$CASEDIR/jra55fcst_filt_v1_3_actual_wind_exec.log.$LID
+time ./jra55fcst_filt_v1_3_actual_wind_exec.sh $YEARs $YEARe $ODAYs $ODAYe  >& $LOGFILE
+
+real	2m46.636s
+user	1m2.872s
+sys	0m18.497s
+#  input: .../linkdir/COBESST/daily/grads/
+#  input: 
+# output: .../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r
+
+#-----------------------------------------------------------------------------------------
+echo " Map variables from the reduced TL319 grid to the normal TL319 grid -------"
+ Map variables from the reduced TL319 grid to the normal TL319 grid -------
+echo "tStamp: $(date +%y%m%d-%H%M%S)"
+tStamp: 210106-235141
+#-----------------------------------------------------------------------------------------
+
+cd $HOMEDIR/jra55_org_grid_product   
+pwd
+/glade/u/home/ssfcst/JRA55-do/jra55_org_grid_product
+
+if [ $COMPILE == "TRUE" ] ; then
+   gmake make_red2reg
+fi
+gmake: `make_red2reg' is up to date.
+
+LOGFILE=$CASEDIR/red2reg_exec_v1_3.log.$LID
+time ./red2reg_exec_v1_3.sh $YEARs $YEARe $ODAYs $ODAYe  >& $LOGFILE
+
+real	1m22.104s
+user	0m19.717s
+sys	0m26.370s
+mv   wind_v1_3.$YEARs-${YEARe}.log    $CASEDIR/wind_v1_3.$YEARs-${YEARe}.log.$LID
+mv tmpsph_v1_3.$YEARs-${YEARe}.log $CASEDIR/tempsph_v1_3.$YEARs-${YEARe}.log.$LID
+#  input: .../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319r
+# output: .../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319
+
+
+echo ${0} "EXIT"
+/glade/u/home/ssfcst/JRA55-do/cesm-scripts/JRA_step3.sh EXIT

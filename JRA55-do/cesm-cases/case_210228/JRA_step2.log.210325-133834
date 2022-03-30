@@ -1,0 +1,162 @@
+/glade/u/home/ssfcst/JRA55-do/cesm-scripts/JRA_step2.sh ENTER
+
+DATADIR=/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data # work dir for input, output, intermediate data
+HOMEDIR=/glade/u/home/ssfcst/JRA55-do                # root dir for all JRA55-do scripts (repo root dir)
+SCRIPTDIR=/glade/u/home/ssfcst/JRA55-do/cesm-scripts # where the CESM wrapper scripts are
+
+YEARs=2021    # start date: year 
+MONTHs=1      # start date: month 
+DAYs=1        # start date: day of month
+ODAYs=1       # start date: ordinal day (day in year)
+
+YEARe=2021    # end date: year 
+MONTHe=2      # end date: month of year
+DAYe=28       # end date: day of month
+ODAYe=59      		# end date: ordinal day
+DATESTRe=20210228 	# end date: text string for netCDF file name
+
+YEARp=2021    # end date: year 
+MONTHp=3      # day after end date: month of year
+DAYp=1       # day after end date: day of month
+
+DATESTRc=20210322 # file creation date text string for netCDF file name
+
+COMPILE=FALSE   # TRUE => compile code
+DOWNLOAD=TRUE   # download ftp data
+
+DO_STEP0=FALSE   
+DO_STEP1=TRUE
+DO_STEP2=TRUE
+DO_STEP3=TRUE
+DO_STEP4=TRUE
+DO_STEP5=TRUE
+DO_STEP6=TRUE
+DO_STEP7=TRUE
+DO_STEP8=TRUE
+ 
+LOGFILE=${CASEDIR}/${0}.${LID}
+echo "$0 LOGFILE = $LOGFILE"
+/glade/u/home/ssfcst/JRA55-do/cesm-scripts/JRA_step2.sh LOGFILE = /glade/u/home/ssfcst/JRA55-do/cesm-cases/case_210228//glade/u/home/ssfcst/JRA55-do/cesm-scripts/JRA_step2.sh.210325-133834
+echo "$0 HOMEDIR = $LOGFILE"
+/glade/u/home/ssfcst/JRA55-do/cesm-scripts/JRA_step2.sh HOMEDIR = /glade/u/home/ssfcst/JRA55-do/cesm-cases/case_210228//glade/u/home/ssfcst/JRA55-do/cesm-scripts/JRA_step2.sh.210325-133834
+#-------------------------------------------------------------------------------
+
+echo "==========================================================================="
+===========================================================================
+echo "2. Update COBE SST data"
+2. Update COBE SST data
+echo "==========================================================================="
+===========================================================================
+
+#-----------------------------------------------------------------------------------------
+echo " Download COBE-SST data ---------------------------------------------------"
+ Download COBE-SST data ---------------------------------------------------
+#-----------------------------------------------------------------------------------------
+
+if [ $DOWNLOAD != "TRUE" ] ; then
+   echo "No data downloading."
+else
+   cd $DATADIR/COBESST/daily/grib 
+   pwd
+   wget --no-check-certificate --backups=5 https://climate.mri-jma.go.jp/~htsujino/userspace/JRA55-do/repos/cobesst_daily/sst-glb.2019.dat
+   wget --no-check-certificate --backups=5 https://climate.mri-jma.go.jp/~htsujino/userspace/JRA55-do/repos/cobesst_daily/sst-glb.2020.dat
+   wget --no-check-certificate --backups=5 https://climate.mri-jma.go.jp/~htsujino/userspace/JRA55-do/repos/cobesst_daily/sst-glb.2021.dat
+#  ?? don't need monthly data ??
+   cd $DATADIR/COBESST/monthly/grib 
+   pwd
+   wget --no-check-certificate --backups=5 https://climate.mri-jma.go.jp/~htsujino/userspace/JRA55-do/repos/cobesst_monthly/sst-glb.2019.dat
+   wget --no-check-certificate --backups=5 https://climate.mri-jma.go.jp/~htsujino/userspace/JRA55-do/repos/cobesst_monthly/sst-glb.2020.dat
+   wget --no-check-certificate --backups=5 https://climate.mri-jma.go.jp/~htsujino/userspace/JRA55-do/repos/cobesst_monthly/sst-glb.2021.dat
+fi
+/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data/COBESST/daily/grib
+
+Redirecting output to ‘wget-log.21’.
+
+Redirecting output to ‘wget-log.22’.
+
+Redirecting output to ‘wget-log.23’.
+/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data/COBESST/monthly/grib
+
+Redirecting output to ‘wget-log.17’.
+
+Redirecting output to ‘wget-log.18’.
+
+Redirecting output to ‘wget-log.19’.
+
+#-----------------------------------------------------------------------------------------
+echo " Decode GRIB and make flat binary -----------------------------------------"
+ Decode GRIB and make flat binary -----------------------------------------
+echo "tStamp: $(date +%y%m%d-%H%M%S)"
+tStamp: 210325-133904
+#-----------------------------------------------------------------------------------------
+
+cd $HOMEDIR/cobesst
+pwd
+/glade/u/home/ssfcst/JRA55-do/cobesst
+
+LOGFILE=$CASEDIR/grib2grads_cobesst_daily.log.$YEARe.$LID
+time ./grib2grads_cobesst_daily.sh 2019   2021    >& $LOGFILE # HACK: need adjacent year's data (Dec 31, or Jan 1)
+
+real	0m2.925s
+user	0m1.167s
+sys	0m0.409s
+#ime ./grib2grads_cobesst_daily.sh $YEARs $YEARe  >& $LOGFILE
+#  input: DATADIR/cobesst/daily/grib
+# output: DATADIR/cobesst/daily/grads
+
+LOGFILE=$CASEDIR/grib2grads_cobesst_monthly.log.$YEARe.$LID
+time ./grib2grads_cobesst_monthly.sh $YEARs $YEARe  >& $LOGFILE
+
+real	0m0.020s
+user	0m0.008s
+sys	0m0.014s
+#  input: DATADIR/cobesst/monthly/grib
+# output: DATADIR/cobesst/monthly/grads
+
+if [ $COMPILE == "TRUE" ] ; then
+   gmake separate_cobesst_monthly
+fi
+
+LOGFILE=$CASEDIR/make_sepmondata.log.$YEARe.$LID
+time ./make_sepmondata.sh $YEARs $YEARe $MONTHe  >& $LOGFILE
+
+real	0m0.130s
+user	0m0.009s
+sys	0m0.010s
+#  input: DATADIR/cobesst/monthly/grads
+# output: DATADIR/cobesst/monthly/yyyymm
+
+#-----------------------------------------------------------------------------------------
+echo " Create netCDF files used by input4MIPS -----------------------------------"
+ Create netCDF files used by input4MIPS -----------------------------------
+echo "tStamp: $(date +%y%m%d-%H%M%S)"
+tStamp: 210325-133907
+#-----------------------------------------------------------------------------------------
+
+alias wgrib="~/local/bin/wgrib"
+
+cd $HOMEDIR/anl/grd2nc_g_input4mips
+pwd
+/glade/u/home/ssfcst/JRA55-do/anl/grd2nc_g_input4mips
+
+if [ $COMPILE == "TRUE" ] ; then
+   gmake grd2nc_g
+   gmake grd2nc_g_all
+fi
+
+cd $HOMEDIR/for_omip
+pwd
+/glade/u/home/ssfcst/JRA55-do/for_omip
+
+LOGFILE=$CASEDIR/create_netcdf_cobesst.log.$YEARs.$LID
+time ./create_netcdf_cobesst.sh $YEARs $YEARe $DATESTRe  $ODAYe  >& $LOGFILE
+
+real	0m2.236s
+user	0m0.155s
+sys	0m0.413s
+#  input: DATADIR/cobesst/monthly/grads
+# output: DATADIR/products/support/netCDF
+
+
+echo ${0} "EXIT"
+/glade/u/home/ssfcst/JRA55-do/cesm-scripts/JRA_step2.sh EXIT

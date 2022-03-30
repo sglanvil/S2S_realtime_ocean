@@ -1,0 +1,255 @@
+../../cesm-scripts/JRA_main.sh: /glade/u/home/ssfcst/JRA55-do/cesm-cases/case_210716
+../../cesm-scripts/JRA_main.sh:
+#trap '[[ $BASH_COMMAND != echo* ]] && $BASH_COMMAND' DEBUG
+
+# LID=$(date +%y%m%d-%H%M%S)
+# LOGFILE=$(pwd)/master.$YEAR.log.$LID
+#-------------------------------------------------------------------------------
+
+
+DATADIR=/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data # work dir for input, output, intermediate data
+HOMEDIR=/glade/u/home/ssfcst/JRA55-do                # root dir for all JRA55-do scripts (repo root dir)
+SCRIPTDIR=/glade/u/home/ssfcst/JRA55-do/cesm-scripts # where the CESM wrapper scripts are
+
+YEARs=2021    # start date: year 
+MONTHs=1      # start date: month 
+DAYs=1        # start date: day of month
+ODAYs=1       # start date: ordinal day (day in year)
+
+YEARe=2021    # end date: year 
+MONTHe=7      # end date: month of year
+DAYe=16       # end date: day of month
+ODAYe=197      # end date: ordinal day
+DATESTRe=20210716 # end date: text string for netCDF file name
+
+YEARp=2021    # end date: year 
+MONTHp=7      # day after end date: month of year
+DAYp=17       # day after end date: day of month
+
+DATESTRc=20210716 # file creation date text string for netCDF file name
+
+COMPILE=FALSE   # TRUE => compile code
+DOWNLOAD=TRUE   # download ftp data
+
+DO_STEP0=FALSE
+DO_STEP1=FALSE
+DO_STEP2=FALSE
+DO_STEP3=FALSE
+DO_STEP4=FALSE
+DO_STEP5=FALSE
+DO_STEP6=FALSE
+DO_STEP7=FALSE
+DO_STEP8=TRUE 
+
+#-------------------------------------------------------------------------------
+#
+#-------------------------------------------------------------------------------
+
+LID=$(date +%y%m%d-%H%M%S)   # log ID / time-stamp
+echo "${0}: Step 0  $LID"
+../../cesm-scripts/JRA_main.sh: Step 0  210721-151757
+if [ $DO_STEP0 == "TRUE" ] ; then
+   echo "${0}: Step 0  execute..."
+   touch $DATADIR/timestamp_step0
+   touch $CASEDIR/timestamp_step0.$LID
+   sh $SCRIPTDIR/JRA_step0.sh $LID $CASEDIR  >& $CASEDIR/JRA_step0.log.$LID
+   find $DATADIR -newer $DATADIR/timestamp_step0
+else
+   echo "${0}: Step 0  NOT executed"
+fi
+../../cesm-scripts/JRA_main.sh: Step 0  NOT executed
+
+LID=$(date +%y%m%d-%H%M%S)   # log ID / time-stamp
+echo "${0}: Step 1  $LID"
+../../cesm-scripts/JRA_main.sh: Step 1  210721-151757
+if [ $DO_STEP1 == "TRUE" ] ; then
+   echo "${0}: Step 1  execute..."
+   touch $DATADIR/timestamp_step1
+   touch $CASEDIR/timestamp_step1.$LID
+   sh $SCRIPTDIR/JRA_step1.sh $LID $CASEDIR  >& $CASEDIR/JRA_step1.log.$LID
+   find $DATADIR -newer $DATADIR/timestamp_step1
+else
+   echo "${0}: Step 1  NOT executed"
+fi
+../../cesm-scripts/JRA_main.sh: Step 1  NOT executed
+
+LID=$(date +%y%m%d-%H%M%S)   # log ID / time-stamp
+echo "${0}: Step 2  $LID"
+../../cesm-scripts/JRA_main.sh: Step 2  210721-151757
+if [ $DO_STEP2 == "TRUE" ] ; then
+   echo "${0}: Step 2  execute..."
+   touch $DATADIR/timestamp_step2
+   touch $CASEDIR/timestamp_step2.$LID
+   sh $SCRIPTDIR/JRA_step2.sh $LID $CASEDIR  >& $CASEDIR/JRA_step2.log.$LID
+   find $DATADIR -newer $DATADIR/timestamp_step2
+else
+   echo "${0}: Step 2  NOT executed"
+fi
+../../cesm-scripts/JRA_main.sh: Step 2  NOT executed
+
+LID=$(date +%y%m%d-%H%M%S)   # log ID / time-stamp
+echo "${0}: Step 3  $LID"
+../../cesm-scripts/JRA_main.sh: Step 3  210721-151757
+if [ $DO_STEP3 == "TRUE" ] ; then
+   echo "${0}: Step 3  execute..."
+   touch $DATADIR/timestamp_step3
+   touch $CASEDIR/timestamp_step3.$LID
+   sh $SCRIPTDIR/JRA_step3.sh $LID $CASEDIR  >& $CASEDIR/JRA_step3.log.$LID
+   find $DATADIR -newer $DATADIR/timestamp_step3
+else
+   echo "${0}: Step 3  NOT executed"
+fi
+../../cesm-scripts/JRA_main.sh: Step 3  NOT executed
+
+LID=$(date +%y%m%d-%H%M%S)   # log ID / time-stamp
+echo "${0}: Step 4  $LID"
+../../cesm-scripts/JRA_main.sh: Step 4  210721-151757
+if [ $DO_STEP4 == "TRUE" ] ; then
+   echo "${0}: Step 4  execute..."
+   touch $DATADIR/timestamp_step4
+   touch $CASEDIR/timestamp_step4.$LID
+   sh $SCRIPTDIR/JRA_step4.sh $LID $CASEDIR  >& $CASEDIR/JRA_step4.log.$LID
+   find $DATADIR -newer $DATADIR/timestamp_step4
+else
+   echo "${0}: Step 4  NOT executed"
+fi
+../../cesm-scripts/JRA_main.sh: Step 4  NOT executed
+
+LID=$(date +%y%m%d-%H%M%S)   # log ID / time-stamp
+echo "${0}: Step 5  $LID"
+../../cesm-scripts/JRA_main.sh: Step 5  210721-151757
+if [ $DO_STEP5 == "TRUE" ] ; then
+   echo "${0}: Step 5  execute..."
+   touch $DATADIR/timestamp_step5
+   touch $CASEDIR/timestamp_step5.$LID
+   sh $SCRIPTDIR/JRA_step5.sh $LID $CASEDIR  >& $CASEDIR/JRA_step5.log.$LID
+   find $DATADIR -newer $DATADIR/timestamp_step5
+else
+   echo "${0}: Step 5  NOT executed"
+fi
+../../cesm-scripts/JRA_main.sh: Step 5  NOT executed
+
+LID=$(date +%y%m%d-%H%M%S)   # log ID / time-stamp
+echo "${0}: Step 6  $LID"
+../../cesm-scripts/JRA_main.sh: Step 6  210721-151757
+if [ $DO_STEP6 == "TRUE" ] ; then
+   echo "${0}: Step 6  execute..."
+   touch $DATADIR/timestamp_step6
+   touch $CASEDIR/timestamp_step6.$LID
+   sh $SCRIPTDIR/JRA_step6.sh $LID $CASEDIR  >& $CASEDIR/JRA_step6.log.$LID
+   find $DATADIR -newer $DATADIR/timestamp_step6
+else
+   echo "${0}: Step 6  NOT executed"
+fi
+../../cesm-scripts/JRA_main.sh: Step 6  NOT executed
+
+LID=$(date +%y%m%d-%H%M%S)   # log ID / time-stamp
+echo "${0}: Step 7  $LID"
+../../cesm-scripts/JRA_main.sh: Step 7  210721-151757
+if [ $DO_STEP7 == "TRUE" ] ; then
+   echo "${0}: Step 7  execute..."
+   touch $DATADIR/timestamp_step7
+   touch $CASEDIR/timestamp_step7.$LID
+   sh $SCRIPTDIR/JRA_step7.sh $LID $CASEDIR  >& $CASEDIR/JRA_step7.log.$LID
+   find $DATADIR -newer $DATADIR/timestamp_step7
+else
+   echo "${0}: Step 7  NOT executed"
+fi
+../../cesm-scripts/JRA_main.sh: Step 7  NOT executed
+
+LID=$(date +%y%m%d-%H%M%S)   # log ID / time-stamp
+echo "${0}: Step 8  $LID"
+../../cesm-scripts/JRA_main.sh: Step 8  210721-151757
+if [ $DO_STEP8 == "TRUE" ] ; then
+   echo "${0}: Step 8  execute..."
+   touch $DATADIR/timestamp_step8
+   touch $CASEDIR/timestamp_step8.$LID
+   sh $SCRIPTDIR/JRA_step8.sh $LID $CASEDIR  >& $CASEDIR/JRA_step8.log.$LID
+   find $DATADIR -newer $DATADIR/timestamp_step8
+else
+   echo "${0}: Step 8  NOT executed"
+fi
+../../cesm-scripts/JRA_main.sh: Step 8  execute...
+/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data/products/version_1_5/netCDF/snow.2021.ctl
+/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data/products/version_1_5/netCDF/u_10.2021.20210716.nc
+/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data/products/version_1_5/netCDF/rain.2021.20210716.nc
+/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data/products/version_1_5/netCDF/slp.2021.20210716.nc
+/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data/products/version_1_5/netCDF/t_10.2021.20210716.nc
+/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data/products/version_1_5/netCDF/q_10.2021.ctl
+/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data/products/version_1_5/netCDF/v_10.2021.ctl
+/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data/products/version_1_5/netCDF/u_10.2021.ctl
+/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data/products/version_1_5/netCDF/v_10.2021.20210716.nc
+/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data/products/version_1_5/netCDF/t_10.2021.ctl
+/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data/products/version_1_5/netCDF/rlds.2021.20210716.nc
+/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data/products/version_1_5/netCDF/rsds.2021.ctl
+/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data/products/version_1_5/netCDF/rlds.2021.ctl
+/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data/products/version_1_5/netCDF/rain.2021.ctl
+/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data/products/version_1_5/netCDF/rsds.2021.20210716.nc
+/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data/products/version_1_5/netCDF/slp.2021.ctl
+/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data/products/version_1_5/netCDF/q_10.2021.20210716.nc
+/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data/products/version_1_5/netCDF/snow.2021.20210716.nc
+/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data/products/version_1_5/input4MIPs/CMIP6/OMIP/MRI/MRI-JRA55-do-1-5-0/atmos/3hr/rlds/gr
+/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data/products/version_1_5/input4MIPs/CMIP6/OMIP/MRI/MRI-JRA55-do-1-5-0/atmos/3hr/rlds/gr/v20210721
+/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data/products/version_1_5/input4MIPs/CMIP6/OMIP/MRI/MRI-JRA55-do-1-5-0/atmos/3hr/rlds/gr/v20210721/rlds_input4MIPs_atmosphericState_OMIP_MRI-JRA55-do-1-5-0_gr_202101010130-202107162230.nc
+/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data/products/version_1_5/input4MIPs/CMIP6/OMIP/MRI/MRI-JRA55-do-1-5-0/atmos/3hr/prsn/gr
+/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data/products/version_1_5/input4MIPs/CMIP6/OMIP/MRI/MRI-JRA55-do-1-5-0/atmos/3hr/prsn/gr/v20210721
+/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data/products/version_1_5/input4MIPs/CMIP6/OMIP/MRI/MRI-JRA55-do-1-5-0/atmos/3hr/prsn/gr/v20210721/prsn_input4MIPs_atmosphericState_OMIP_MRI-JRA55-do-1-5-0_gr_202101010130-202107162230.nc
+/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data/products/version_1_5/input4MIPs/CMIP6/OMIP/MRI/MRI-JRA55-do-1-5-0/atmos/3hr/rsds/gr
+/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data/products/version_1_5/input4MIPs/CMIP6/OMIP/MRI/MRI-JRA55-do-1-5-0/atmos/3hr/rsds/gr/v20210721
+/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data/products/version_1_5/input4MIPs/CMIP6/OMIP/MRI/MRI-JRA55-do-1-5-0/atmos/3hr/rsds/gr/v20210721/rsds_input4MIPs_atmosphericState_OMIP_MRI-JRA55-do-1-5-0_gr_202101010130-202107162230.nc
+/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data/products/version_1_5/input4MIPs/CMIP6/OMIP/MRI/MRI-JRA55-do-1-5-0/atmos/3hr/prra/gr
+/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data/products/version_1_5/input4MIPs/CMIP6/OMIP/MRI/MRI-JRA55-do-1-5-0/atmos/3hr/prra/gr/v20210721
+/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data/products/version_1_5/input4MIPs/CMIP6/OMIP/MRI/MRI-JRA55-do-1-5-0/atmos/3hr/prra/gr/v20210721/prra_input4MIPs_atmosphericState_OMIP_MRI-JRA55-do-1-5-0_gr_202101010130-202107162230.nc
+/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data/products/version_1_5/input4MIPs/CMIP6/OMIP/MRI/MRI-JRA55-do-1-5-0/atmos/3hrPt/vas/gr
+/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data/products/version_1_5/input4MIPs/CMIP6/OMIP/MRI/MRI-JRA55-do-1-5-0/atmos/3hrPt/vas/gr/v20210721
+/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data/products/version_1_5/input4MIPs/CMIP6/OMIP/MRI/MRI-JRA55-do-1-5-0/atmos/3hrPt/vas/gr/v20210721/vas_input4MIPs_atmosphericState_OMIP_MRI-JRA55-do-1-5-0_gr_202101010000-202107162100.nc
+/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data/products/version_1_5/input4MIPs/CMIP6/OMIP/MRI/MRI-JRA55-do-1-5-0/atmos/3hrPt/uas/gr
+/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data/products/version_1_5/input4MIPs/CMIP6/OMIP/MRI/MRI-JRA55-do-1-5-0/atmos/3hrPt/uas/gr/v20210721
+/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data/products/version_1_5/input4MIPs/CMIP6/OMIP/MRI/MRI-JRA55-do-1-5-0/atmos/3hrPt/uas/gr/v20210721/uas_input4MIPs_atmosphericState_OMIP_MRI-JRA55-do-1-5-0_gr_202101010000-202107162100.nc
+/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data/products/version_1_5/input4MIPs/CMIP6/OMIP/MRI/MRI-JRA55-do-1-5-0/atmos/3hrPt/tas/gr
+/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data/products/version_1_5/input4MIPs/CMIP6/OMIP/MRI/MRI-JRA55-do-1-5-0/atmos/3hrPt/tas/gr/v20210721
+/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data/products/version_1_5/input4MIPs/CMIP6/OMIP/MRI/MRI-JRA55-do-1-5-0/atmos/3hrPt/tas/gr/v20210721/tas_input4MIPs_atmosphericState_OMIP_MRI-JRA55-do-1-5-0_gr_202101010000-202107162100.nc
+/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data/products/version_1_5/input4MIPs/CMIP6/OMIP/MRI/MRI-JRA55-do-1-5-0/atmos/3hrPt/psl/gr
+/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data/products/version_1_5/input4MIPs/CMIP6/OMIP/MRI/MRI-JRA55-do-1-5-0/atmos/3hrPt/psl/gr/v20210721
+/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data/products/version_1_5/input4MIPs/CMIP6/OMIP/MRI/MRI-JRA55-do-1-5-0/atmos/3hrPt/psl/gr/v20210721/psl_input4MIPs_atmosphericState_OMIP_MRI-JRA55-do-1-5-0_gr_202101010000-202107162100.nc
+/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data/products/version_1_5/input4MIPs/CMIP6/OMIP/MRI/MRI-JRA55-do-1-5-0/atmos/3hrPt/huss/gr
+/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data/products/version_1_5/input4MIPs/CMIP6/OMIP/MRI/MRI-JRA55-do-1-5-0/atmos/3hrPt/huss/gr/v20210721
+/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data/products/version_1_5/input4MIPs/CMIP6/OMIP/MRI/MRI-JRA55-do-1-5-0/atmos/3hrPt/huss/gr/v20210721/huss_input4MIPs_atmosphericState_OMIP_MRI-JRA55-do-1-5-0_gr_202101010000-202107162100.nc
+/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data/products/version_1_5/grads/2021
+/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data/products/version_1_5/grads/2021/prcp.2021010103
+/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data/products/version_1_5/grads/2021/brtmp.2021010100
+/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data/products/version_1_5/grads/2021/u10m.2021010103
+/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data/products/version_1_5/grads/2021/prcp.2021010100
+/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data/products/version_1_5/grads/2021/slprs.2021010103
+/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data/products/version_1_5/grads/2021/dlwrf.2021
+/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data/products/version_1_5/grads/2021/sph10m.2021
+/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data/products/version_1_5/grads/2021/u10m.2021
+/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data/products/version_1_5/grads/2021/dlwrf.2021010103
+/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data/products/version_1_5/grads/2021/dswrf.2021010103
+/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data/products/version_1_5/grads/2021/prcp.2021
+/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data/products/version_1_5/grads/2021/dswrf.2021
+/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data/products/version_1_5/grads/2021/tmp10m.2021
+/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data/products/version_1_5/grads/2021/ice.2021010100
+/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data/products/version_1_5/grads/2021/sph10m.2021010100
+/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data/products/version_1_5/grads/2021/ice.2021010103
+/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data/products/version_1_5/grads/2021/v10m.2021010100
+/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data/products/version_1_5/grads/2021/v10m.2021
+/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data/products/version_1_5/grads/2021/snow.2021010103
+/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data/products/version_1_5/grads/2021/v10m.2021010103
+/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data/products/version_1_5/grads/2021/slprs.2021
+/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data/products/version_1_5/grads/2021/snow.2021
+/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data/products/version_1_5/grads/2021/tmp10m.2021010103
+/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data/products/version_1_5/grads/2021/ice.2021
+/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data/products/version_1_5/grads/2021/dswrf.2021010100
+/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data/products/version_1_5/grads/2021/tmp10m.2021010100
+/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data/products/version_1_5/grads/2021/dlwrf.2021010100
+/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data/products/version_1_5/grads/2021/brtmp.2021010103
+/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data/products/version_1_5/grads/2021/sph10m.2021010103
+/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data/products/version_1_5/grads/2021/brtmp.2021
+/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data/products/version_1_5/grads/2021/snow.2021010100
+/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data/products/version_1_5/grads/2021/slprs.2021010100
+/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data/products/version_1_5/grads/2021/u10m.2021010100
+
+LID=$(date +%y%m%d-%H%M%S)   # log ID / time-stamp
+echo "${0}: DONE.   $LID"
+../../cesm-scripts/JRA_main.sh: DONE.   210721-163932

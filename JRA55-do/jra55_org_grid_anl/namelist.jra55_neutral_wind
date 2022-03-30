@@ -1,0 +1,34 @@
+&nml_jra55_neutral_wind
+  file_u10m='../linkdir/work/jra55fcst_filt_3hr_TL319r/202203/u10m.2022032121'
+  file_v10m='../linkdir/work/jra55fcst_filt_3hr_TL319r/202203/v10m.2022032121'
+  file_tmp2m='../linkdir/work/jra55fcst_v1_2_3hr_tmp2m_TL319r/202203/tmp2m.2022032121'
+  file_sph2m='../linkdir/work/jra55fcst_v1_2_3hr_sph2m_TL319r/202203/sph2m.2022032121'
+  l_adjust_icesurf=.true.,
+  file_tmp2m_raw='../linkdir/work/jra55fcst_3hr_TL319r/202203/tmp2m.2022032121'
+  file_brtmp='../linkdir/work/jra55fcst_3hr_TL319r/202203/brtmp.2022032121'
+  file_slprs='../linkdir/work/jra55fcst_3hr_TL319r/202203/slprs.2022032121'
+  file_ice='../linkdir/work/jra55fcst_3hr_TL319r/202203/ice.2022032121'
+  file_mask='../linkdir/work/const/TL319.mask'
+  ihour=21
+  file_u10m_org='../linkdir/work/jra55fcst_filt_v1_2tq_3hr_TL319r/202203/un10m.2022032121'
+  file_v10m_org='../linkdir/work/jra55fcst_filt_v1_2tq_3hr_TL319r/202203/vn10m.2022032121'
+  file_u10m_latlon='../linkdir/work/jra55fcst_filt_v1_2tq_3hr_TL319/202203/un10m.2022032121'
+  file_v10m_latlon='../linkdir/work/jra55fcst_filt_v1_2tq_3hr_TL319/202203/vn10m.2022032121'
+  l_out_latlon=.false.
+  imut=640,
+  jmut=320,
+  dlon=0.5625d0
+  grid_name='TL319'
+  file_ydef='../linkdir/data/lat_jra55_exact.txt'
+  icobe=360,
+  jcobe=180,
+  slon_cobe=0.5d0,
+  dlon_cobe=1.0d0,
+  slat_cobe=-89.5d0,
+  dlat_cobe=1.0d0,
+  undef4_cobe=9.999e20,
+  file_cobe_a='../linkdir/COBESST/daily/grads/sst-glb.2022',
+  file_cobe_b='../linkdir/COBESST/daily/grads/sst-glb.2022',
+  irec_cobe_a=81
+  irec_cobe_b=80
+/

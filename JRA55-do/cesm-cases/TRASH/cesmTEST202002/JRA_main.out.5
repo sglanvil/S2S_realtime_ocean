@@ -1,0 +1,158 @@
+./JRA_main.sh: /glade/u/home/ssfcst/JRA55-do/cesmTEST202002
+./JRA_main.sh:
+#trap '[[ $BASH_COMMAND != echo* ]] && $BASH_COMMAND' DEBUG
+#-------------------------------------------------------------------------------
+# LID=$(date +%y%m%d-%H%M%S)
+# LOGFILE=$(pwd)/master.$YEAR.log.$LID
+
+
+DATADIR=/glade/scratch/ssfcst/JRA55_data             # where input, output, & intermediate data is here
+HOMEDIR=/glade/u/home/ssfcst//JRA55-do               # where the standard JRA55-do scripts are
+SCRIPTDIR=/glade/u/home/ssfcst/JRA55-do/cesm-scripts # where the CESM wrapper scripts are
+
+YEARs=2020    # start date: year 
+MONTHs=1      # start date: month 
+DAYs=1        # start date: day in month
+ODAYs=1       # start date: ordinal day (day in year)
+
+YEARe=2020    # end date: year -- ?  assume YEARs = YEARe
+MONTHe=2      # end date: month 
+DAYe=29       # end date: day in month
+ODAYe=60      # end date: ordinal day
+DATESTRe=2020-02-29 # end date: text string for netCDF file name
+
+DATESTRc=20210106 # end date: text string for netCDF file name
+
+YEARp=2020    # end date: year -- ?  assume YEARs = YEARp
+MONTHp=3      # day after end date: month
+DAYp=1        # day after end date: day
+ODAYp=61      # day after end date: ordinal day
+
+COMPILE=TRUE    # TRUE => compile code
+DOWNLOAD=TRUE   # download ftp data
+
+DO_STEP0=FALSE
+DO_STEP1=FALSE
+DO_STEP2=FALSE
+DO_STEP3=FALSE
+DO_STEP4=FALSE
+DO_STEP5=TRUE 
+DO_STEP6=FALSE
+DO_STEP7=FALSE
+DO_STEP8=FALSE
+
+#-------------------------------------------------------------------------------
+#
+#-------------------------------------------------------------------------------
+
+LID=$(date +%y%m%d-%H%M%S)   # log ID / time-stamp
+echo "${0}: Step 0  $LID"
+./JRA_main.sh: Step 0  210107-002030
+if [ $DO_STEP0 == "TRUE" ] ; then
+   echo "${0}: Step 0  execute..."
+   touch $CASEDIR/do_step0.$LID
+   sh $SCRIPTDIR/JRA_step0.sh $LID $CASEDIR  >& $CASEDIR/JRA_step0.log.$LID
+else
+   echo "${0}: Step 0  NOT executed"
+fi
+./JRA_main.sh: Step 0  NOT executed
+
+LID=$(date +%y%m%d-%H%M%S)   # log ID / time-stamp
+echo "${0}: Step 1  $LID"
+./JRA_main.sh: Step 1  210107-002030
+if [ $DO_STEP1 == "TRUE" ] ; then
+   echo "${0}: Step 1  execute..."
+   touch $CASEDIR/do_step1.$LID
+   sh $SCRIPTDIR/JRA_step1.sh $LID $CASEDIR  >& $CASEDIR/JRA_step1.log.$LID
+else
+   echo "${0}: Step 1  NOT executed"
+fi
+./JRA_main.sh: Step 1  NOT executed
+
+LID=$(date +%y%m%d-%H%M%S)   # log ID / time-stamp
+echo "${0}: Step 2  $LID"
+./JRA_main.sh: Step 2  210107-002030
+if [ $DO_STEP2 == "TRUE" ] ; then
+   echo "${0}: Step 2  execute..."
+   touch $CASEDIR/do_step2.$LID
+   sh $SCRIPTDIR/JRA_step2.sh $LID $CASEDIR  >& $CASEDIR/JRA_step2.log.$LID
+else
+   echo "${0}: Step 2  NOT executed"
+fi
+./JRA_main.sh: Step 2  NOT executed
+
+LID=$(date +%y%m%d-%H%M%S)   # log ID / time-stamp
+echo "${0}: Step 3  $LID"
+./JRA_main.sh: Step 3  210107-002030
+if [ $DO_STEP3 == "TRUE" ] ; then
+   echo "${0}: Step 3  execute..."
+   touch $CASEDIR/do_step3.$LID
+   sh $SCRIPTDIR/JRA_step3.sh $LID $CASEDIR  >& $CASEDIR/JRA_step3.log.$LID
+else
+   echo "${0}: Step 3  NOT executed"
+fi
+./JRA_main.sh: Step 3  NOT executed
+
+LID=$(date +%y%m%d-%H%M%S)   # log ID / time-stamp
+echo "${0}: Step 4  $LID"
+./JRA_main.sh: Step 4  210107-002030
+if [ $DO_STEP4 == "TRUE" ] ; then
+   echo "${0}: Step 4  execute..."
+   touch $CASEDIR/do_step4.$LID
+   sh $SCRIPTDIR/JRA_step4.sh $LID $CASEDIR  >& $CASEDIR/JRA_step4.log.$LID
+else
+   echo "${0}: Step 4  NOT executed"
+fi
+./JRA_main.sh: Step 4  NOT executed
+
+LID=$(date +%y%m%d-%H%M%S)   # log ID / time-stamp
+echo "${0}: Step 5  $LID"
+./JRA_main.sh: Step 5  210107-002030
+if [ $DO_STEP5 == "TRUE" ] ; then
+   echo "${0}: Step 5  execute..."
+   touch $CASEDIR/do_step5.$LID
+   sh $SCRIPTDIR/JRA_step5.sh $LID $CASEDIR  >& $CASEDIR/JRA_step5.log.$LID
+else
+   echo "${0}: Step 5  NOT executed"
+fi
+./JRA_main.sh: Step 5  execute...
+
+LID=$(date +%y%m%d-%H%M%S)   # log ID / time-stamp
+echo "${0}: Step 6  $LID"
+./JRA_main.sh: Step 6  210107-002123
+if [ $DO_STEP6 == "TRUE" ] ; then
+   echo "${0}: Step 6  execute..."
+   touch $CASEDIR/do_step6.$LID
+   sh $SCRIPTDIR/JRA_step6.sh $LID $CASEDIR  >& $CASEDIR/JRA_step6.log.$LID
+else
+   echo "${0}: Step 6  NOT executed"
+fi
+./JRA_main.sh: Step 6  NOT executed
+
+LID=$(date +%y%m%d-%H%M%S)   # log ID / time-stamp
+echo "${0}: Step 7  $LID"
+./JRA_main.sh: Step 7  210107-002123
+if [ $DO_STEP7 == "TRUE" ] ; then
+   echo "${0}: Step 7  execute..."
+   touch $CASEDIR/do_step7.$LID
+   sh $SCRIPTDIR/JRA_step7.sh $LID $CASEDIR  >& $CASEDIR/JRA_step7.log.$LID
+else
+   echo "${0}: Step 7  NOT executed"
+fi
+./JRA_main.sh: Step 7  NOT executed
+
+LID=$(date +%y%m%d-%H%M%S)   # log ID / time-stamp
+echo "${0}: Step 8  $LID"
+./JRA_main.sh: Step 8  210107-002123
+if [ $DO_STEP8 == "TRUE" ] ; then
+   echo "${0}: Step 8  execute..."
+   touch $CASEDIR/do_step8.$LID
+   sh $SCRIPTDIR/JRA_step8.sh $LID $CASEDIR  >& $CASEDIR/JRA_step8.log.$LID
+else
+   echo "${0}: Step 8  NOT executed"
+fi
+./JRA_main.sh: Step 8  NOT executed
+
+LID=$(date +%y%m%d-%H%M%S)   # log ID / time-stamp
+echo "${0}: DONE.   $LID"
+./JRA_main.sh: DONE.   210107-002123

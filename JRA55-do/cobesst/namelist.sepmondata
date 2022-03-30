@@ -1,0 +1,7 @@
+&nml_sepmondata
+  dir_in='../linkdir/COBESST/monthly/grads',
+  dir_out='../linkdir/COBESST/monthly/yyyymm',
+  ibyr=2021,
+  ieyr=2021,
+  iemn=1,
+&end

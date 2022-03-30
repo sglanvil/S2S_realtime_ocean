@@ -1,0 +1,813 @@
+num_days = 52
+2022
+iend = 52
+1 2022010100
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+8:2214324:d=21123118:PRMSL:kpds5=2:kpds6=102:kpds7=0:TR=0:P1=6:P2=0:TimeU=1:MSL:6hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+9:2530656:d=21123118:TMP:kpds5=11:kpds6=105:kpds7=2:TR=0:P1=6:P2=0:TimeU=1:2 m above gnd:6hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+10:2846988:d=21123118:SPFH:kpds5=51:kpds6=105:kpds7=2:TR=0:P1=6:P2=0:TimeU=1:2 m above gnd:6hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+12:3479652:d=21123118:UGRD:kpds5=33:kpds6=105:kpds7=10:TR=0:P1=6:P2=0:TimeU=1:10 m above gnd:6hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+13:3795984:d=21123118:VGRD:kpds5=34:kpds6=105:kpds7=10:TR=0:P1=6:P2=0:TimeU=1:10 m above gnd:6hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+3:632664:d=21123118:BRTMP:kpds5=118:kpds6=1:kpds7=0:TR=0:P1=6:P2=0:TimeU=1:sfc:6hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+2:316332:d=21123118:SFCR:kpds5=83:kpds6=1:kpds7=0:TR=0:P1=6:P2=0:TimeU=1:sfc:6hr fcst:NAve=0
+1 2022010103
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+8:2214324:d=22010100:PRMSL:kpds5=2:kpds6=102:kpds7=0:TR=0:P1=3:P2=0:TimeU=1:MSL:3hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+9:2530656:d=22010100:TMP:kpds5=11:kpds6=105:kpds7=2:TR=0:P1=3:P2=0:TimeU=1:2 m above gnd:3hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+10:2846988:d=22010100:SPFH:kpds5=51:kpds6=105:kpds7=2:TR=0:P1=3:P2=0:TimeU=1:2 m above gnd:3hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+12:3479652:d=22010100:UGRD:kpds5=33:kpds6=105:kpds7=10:TR=0:P1=3:P2=0:TimeU=1:10 m above gnd:3hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+13:3795984:d=22010100:VGRD:kpds5=34:kpds6=105:kpds7=10:TR=0:P1=3:P2=0:TimeU=1:10 m above gnd:3hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+3:632664:d=22010100:BRTMP:kpds5=118:kpds6=1:kpds7=0:TR=0:P1=3:P2=0:TimeU=1:sfc:3hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+2:316332:d=22010100:SFCR:kpds5=83:kpds6=1:kpds7=0:TR=0:P1=3:P2=0:TimeU=1:sfc:3hr fcst:NAve=0
+1 2022010106
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+8:2214324:d=22010100:PRMSL:kpds5=2:kpds6=102:kpds7=0:TR=0:P1=6:P2=0:TimeU=1:MSL:6hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+9:2530656:d=22010100:TMP:kpds5=11:kpds6=105:kpds7=2:TR=0:P1=6:P2=0:TimeU=1:2 m above gnd:6hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+10:2846988:d=22010100:SPFH:kpds5=51:kpds6=105:kpds7=2:TR=0:P1=6:P2=0:TimeU=1:2 m above gnd:6hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+12:3479652:d=22010100:UGRD:kpds5=33:kpds6=105:kpds7=10:TR=0:P1=6:P2=0:TimeU=1:10 m above gnd:6hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+13:3795984:d=22010100:VGRD:kpds5=34:kpds6=105:kpds7=10:TR=0:P1=6:P2=0:TimeU=1:10 m above gnd:6hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+3:632664:d=22010100:BRTMP:kpds5=118:kpds6=1:kpds7=0:TR=0:P1=6:P2=0:TimeU=1:sfc:6hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+2:316332:d=22010100:SFCR:kpds5=83:kpds6=1:kpds7=0:TR=0:P1=6:P2=0:TimeU=1:sfc:6hr fcst:NAve=0
+1 2022010109
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+8:2214324:d=22010106:PRMSL:kpds5=2:kpds6=102:kpds7=0:TR=0:P1=3:P2=0:TimeU=1:MSL:3hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+9:2530656:d=22010106:TMP:kpds5=11:kpds6=105:kpds7=2:TR=0:P1=3:P2=0:TimeU=1:2 m above gnd:3hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+10:2846988:d=22010106:SPFH:kpds5=51:kpds6=105:kpds7=2:TR=0:P1=3:P2=0:TimeU=1:2 m above gnd:3hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+12:3479652:d=22010106:UGRD:kpds5=33:kpds6=105:kpds7=10:TR=0:P1=3:P2=0:TimeU=1:10 m above gnd:3hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+13:3795984:d=22010106:VGRD:kpds5=34:kpds6=105:kpds7=10:TR=0:P1=3:P2=0:TimeU=1:10 m above gnd:3hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+3:632664:d=22010106:BRTMP:kpds5=118:kpds6=1:kpds7=0:TR=0:P1=3:P2=0:TimeU=1:sfc:3hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+2:316332:d=22010106:SFCR:kpds5=83:kpds6=1:kpds7=0:TR=0:P1=3:P2=0:TimeU=1:sfc:3hr fcst:NAve=0
+1 2022010112
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+8:2214324:d=22010106:PRMSL:kpds5=2:kpds6=102:kpds7=0:TR=0:P1=6:P2=0:TimeU=1:MSL:6hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+9:2530656:d=22010106:TMP:kpds5=11:kpds6=105:kpds7=2:TR=0:P1=6:P2=0:TimeU=1:2 m above gnd:6hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+10:2846988:d=22010106:SPFH:kpds5=51:kpds6=105:kpds7=2:TR=0:P1=6:P2=0:TimeU=1:2 m above gnd:6hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+12:3479652:d=22010106:UGRD:kpds5=33:kpds6=105:kpds7=10:TR=0:P1=6:P2=0:TimeU=1:10 m above gnd:6hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+13:3795984:d=22010106:VGRD:kpds5=34:kpds6=105:kpds7=10:TR=0:P1=6:P2=0:TimeU=1:10 m above gnd:6hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+3:632664:d=22010106:BRTMP:kpds5=118:kpds6=1:kpds7=0:TR=0:P1=6:P2=0:TimeU=1:sfc:6hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+2:316332:d=22010106:SFCR:kpds5=83:kpds6=1:kpds7=0:TR=0:P1=6:P2=0:TimeU=1:sfc:6hr fcst:NAve=0
+1 2022010115
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+8:2214324:d=22010112:PRMSL:kpds5=2:kpds6=102:kpds7=0:TR=0:P1=3:P2=0:TimeU=1:MSL:3hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+9:2530656:d=22010112:TMP:kpds5=11:kpds6=105:kpds7=2:TR=0:P1=3:P2=0:TimeU=1:2 m above gnd:3hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+10:2846988:d=22010112:SPFH:kpds5=51:kpds6=105:kpds7=2:TR=0:P1=3:P2=0:TimeU=1:2 m above gnd:3hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+12:3479652:d=22010112:UGRD:kpds5=33:kpds6=105:kpds7=10:TR=0:P1=3:P2=0:TimeU=1:10 m above gnd:3hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+13:3795984:d=22010112:VGRD:kpds5=34:kpds6=105:kpds7=10:TR=0:P1=3:P2=0:TimeU=1:10 m above gnd:3hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+3:632664:d=22010112:BRTMP:kpds5=118:kpds6=1:kpds7=0:TR=0:P1=3:P2=0:TimeU=1:sfc:3hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+2:316332:d=22010112:SFCR:kpds5=83:kpds6=1:kpds7=0:TR=0:P1=3:P2=0:TimeU=1:sfc:3hr fcst:NAve=0
+1 2022010118
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+8:2214324:d=22010112:PRMSL:kpds5=2:kpds6=102:kpds7=0:TR=0:P1=6:P2=0:TimeU=1:MSL:6hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+9:2530656:d=22010112:TMP:kpds5=11:kpds6=105:kpds7=2:TR=0:P1=6:P2=0:TimeU=1:2 m above gnd:6hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+10:2846988:d=22010112:SPFH:kpds5=51:kpds6=105:kpds7=2:TR=0:P1=6:P2=0:TimeU=1:2 m above gnd:6hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+12:3479652:d=22010112:UGRD:kpds5=33:kpds6=105:kpds7=10:TR=0:P1=6:P2=0:TimeU=1:10 m above gnd:6hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+13:3795984:d=22010112:VGRD:kpds5=34:kpds6=105:kpds7=10:TR=0:P1=6:P2=0:TimeU=1:10 m above gnd:6hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+3:632664:d=22010112:BRTMP:kpds5=118:kpds6=1:kpds7=0:TR=0:P1=6:P2=0:TimeU=1:sfc:6hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+2:316332:d=22010112:SFCR:kpds5=83:kpds6=1:kpds7=0:TR=0:P1=6:P2=0:TimeU=1:sfc:6hr fcst:NAve=0
+1 2022010121
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+8:2214324:d=22010118:PRMSL:kpds5=2:kpds6=102:kpds7=0:TR=0:P1=3:P2=0:TimeU=1:MSL:3hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+9:2530656:d=22010118:TMP:kpds5=11:kpds6=105:kpds7=2:TR=0:P1=3:P2=0:TimeU=1:2 m above gnd:3hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+10:2846988:d=22010118:SPFH:kpds5=51:kpds6=105:kpds7=2:TR=0:P1=3:P2=0:TimeU=1:2 m above gnd:3hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+12:3479652:d=22010118:UGRD:kpds5=33:kpds6=105:kpds7=10:TR=0:P1=3:P2=0:TimeU=1:10 m above gnd:3hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+13:3795984:d=22010118:VGRD:kpds5=34:kpds6=105:kpds7=10:TR=0:P1=3:P2=0:TimeU=1:10 m above gnd:3hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+3:632664:d=22010118:BRTMP:kpds5=118:kpds6=1:kpds7=0:TR=0:P1=3:P2=0:TimeU=1:sfc:3hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+2:316332:d=22010118:SFCR:kpds5=83:kpds6=1:kpds7=0:TR=0:P1=3:P2=0:TimeU=1:sfc:3hr fcst:NAve=0
+2 2022010200
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+8:2214324:d=22010118:PRMSL:kpds5=2:kpds6=102:kpds7=0:TR=0:P1=6:P2=0:TimeU=1:MSL:6hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+9:2530656:d=22010118:TMP:kpds5=11:kpds6=105:kpds7=2:TR=0:P1=6:P2=0:TimeU=1:2 m above gnd:6hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+10:2846988:d=22010118:SPFH:kpds5=51:kpds6=105:kpds7=2:TR=0:P1=6:P2=0:TimeU=1:2 m above gnd:6hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+12:3479652:d=22010118:UGRD:kpds5=33:kpds6=105:kpds7=10:TR=0:P1=6:P2=0:TimeU=1:10 m above gnd:6hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+13:3795984:d=22010118:VGRD:kpds5=34:kpds6=105:kpds7=10:TR=0:P1=6:P2=0:TimeU=1:10 m above gnd:6hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+3:632664:d=22010118:BRTMP:kpds5=118:kpds6=1:kpds7=0:TR=0:P1=6:P2=0:TimeU=1:sfc:6hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+2:316332:d=22010118:SFCR:kpds5=83:kpds6=1:kpds7=0:TR=0:P1=6:P2=0:TimeU=1:sfc:6hr fcst:NAve=0
+2 2022010203
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+8:2214324:d=22010200:PRMSL:kpds5=2:kpds6=102:kpds7=0:TR=0:P1=3:P2=0:TimeU=1:MSL:3hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+9:2530656:d=22010200:TMP:kpds5=11:kpds6=105:kpds7=2:TR=0:P1=3:P2=0:TimeU=1:2 m above gnd:3hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+10:2846988:d=22010200:SPFH:kpds5=51:kpds6=105:kpds7=2:TR=0:P1=3:P2=0:TimeU=1:2 m above gnd:3hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+12:3479652:d=22010200:UGRD:kpds5=33:kpds6=105:kpds7=10:TR=0:P1=3:P2=0:TimeU=1:10 m above gnd:3hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+13:3795984:d=22010200:VGRD:kpds5=34:kpds6=105:kpds7=10:TR=0:P1=3:P2=0:TimeU=1:10 m above gnd:3hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+3:632664:d=22010200:BRTMP:kpds5=118:kpds6=1:kpds7=0:TR=0:P1=3:P2=0:TimeU=1:sfc:3hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+2:316332:d=22010200:SFCR:kpds5=83:kpds6=1:kpds7=0:TR=0:P1=3:P2=0:TimeU=1:sfc:3hr fcst:NAve=0
+2 2022010206
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+8:2214324:d=22010200:PRMSL:kpds5=2:kpds6=102:kpds7=0:TR=0:P1=6:P2=0:TimeU=1:MSL:6hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+9:2530656:d=22010200:TMP:kpds5=11:kpds6=105:kpds7=2:TR=0:P1=6:P2=0:TimeU=1:2 m above gnd:6hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+10:2846988:d=22010200:SPFH:kpds5=51:kpds6=105:kpds7=2:TR=0:P1=6:P2=0:TimeU=1:2 m above gnd:6hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+12:3479652:d=22010200:UGRD:kpds5=33:kpds6=105:kpds7=10:TR=0:P1=6:P2=0:TimeU=1:10 m above gnd:6hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+13:3795984:d=22010200:VGRD:kpds5=34:kpds6=105:kpds7=10:TR=0:P1=6:P2=0:TimeU=1:10 m above gnd:6hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+3:632664:d=22010200:BRTMP:kpds5=118:kpds6=1:kpds7=0:TR=0:P1=6:P2=0:TimeU=1:sfc:6hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+2:316332:d=22010200:SFCR:kpds5=83:kpds6=1:kpds7=0:TR=0:P1=6:P2=0:TimeU=1:sfc:6hr fcst:NAve=0
+2 2022010209
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+8:2214324:d=22010206:PRMSL:kpds5=2:kpds6=102:kpds7=0:TR=0:P1=3:P2=0:TimeU=1:MSL:3hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+9:2530656:d=22010206:TMP:kpds5=11:kpds6=105:kpds7=2:TR=0:P1=3:P2=0:TimeU=1:2 m above gnd:3hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+10:2846988:d=22010206:SPFH:kpds5=51:kpds6=105:kpds7=2:TR=0:P1=3:P2=0:TimeU=1:2 m above gnd:3hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+12:3479652:d=22010206:UGRD:kpds5=33:kpds6=105:kpds7=10:TR=0:P1=3:P2=0:TimeU=1:10 m above gnd:3hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+13:3795984:d=22010206:VGRD:kpds5=34:kpds6=105:kpds7=10:TR=0:P1=3:P2=0:TimeU=1:10 m above gnd:3hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+3:632664:d=22010206:BRTMP:kpds5=118:kpds6=1:kpds7=0:TR=0:P1=3:P2=0:TimeU=1:sfc:3hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+2:316332:d=22010206:SFCR:kpds5=83:kpds6=1:kpds7=0:TR=0:P1=3:P2=0:TimeU=1:sfc:3hr fcst:NAve=0
+2 2022010212
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+8:2214324:d=22010206:PRMSL:kpds5=2:kpds6=102:kpds7=0:TR=0:P1=6:P2=0:TimeU=1:MSL:6hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+9:2530656:d=22010206:TMP:kpds5=11:kpds6=105:kpds7=2:TR=0:P1=6:P2=0:TimeU=1:2 m above gnd:6hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+10:2846988:d=22010206:SPFH:kpds5=51:kpds6=105:kpds7=2:TR=0:P1=6:P2=0:TimeU=1:2 m above gnd:6hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+12:3479652:d=22010206:UGRD:kpds5=33:kpds6=105:kpds7=10:TR=0:P1=6:P2=0:TimeU=1:10 m above gnd:6hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+13:3795984:d=22010206:VGRD:kpds5=34:kpds6=105:kpds7=10:TR=0:P1=6:P2=0:TimeU=1:10 m above gnd:6hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+3:632664:d=22010206:BRTMP:kpds5=118:kpds6=1:kpds7=0:TR=0:P1=6:P2=0:TimeU=1:sfc:6hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+2:316332:d=22010206:SFCR:kpds5=83:kpds6=1:kpds7=0:TR=0:P1=6:P2=0:TimeU=1:sfc:6hr fcst:NAve=0
+2 2022010215
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+8:2214324:d=22010212:PRMSL:kpds5=2:kpds6=102:kpds7=0:TR=0:P1=3:P2=0:TimeU=1:MSL:3hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+9:2530656:d=22010212:TMP:kpds5=11:kpds6=105:kpds7=2:TR=0:P1=3:P2=0:TimeU=1:2 m above gnd:3hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+10:2846988:d=22010212:SPFH:kpds5=51:kpds6=105:kpds7=2:TR=0:P1=3:P2=0:TimeU=1:2 m above gnd:3hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+12:3479652:d=22010212:UGRD:kpds5=33:kpds6=105:kpds7=10:TR=0:P1=3:P2=0:TimeU=1:10 m above gnd:3hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+13:3795984:d=22010212:VGRD:kpds5=34:kpds6=105:kpds7=10:TR=0:P1=3:P2=0:TimeU=1:10 m above gnd:3hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+3:632664:d=22010212:BRTMP:kpds5=118:kpds6=1:kpds7=0:TR=0:P1=3:P2=0:TimeU=1:sfc:3hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+2:316332:d=22010212:SFCR:kpds5=83:kpds6=1:kpds7=0:TR=0:P1=3:P2=0:TimeU=1:sfc:3hr fcst:NAve=0
+2 2022010218
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+8:2214324:d=22010212:PRMSL:kpds5=2:kpds6=102:kpds7=0:TR=0:P1=6:P2=0:TimeU=1:MSL:6hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+9:2530656:d=22010212:TMP:kpds5=11:kpds6=105:kpds7=2:TR=0:P1=6:P2=0:TimeU=1:2 m above gnd:6hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+10:2846988:d=22010212:SPFH:kpds5=51:kpds6=105:kpds7=2:TR=0:P1=6:P2=0:TimeU=1:2 m above gnd:6hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+12:3479652:d=22010212:UGRD:kpds5=33:kpds6=105:kpds7=10:TR=0:P1=6:P2=0:TimeU=1:10 m above gnd:6hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+13:3795984:d=22010212:VGRD:kpds5=34:kpds6=105:kpds7=10:TR=0:P1=6:P2=0:TimeU=1:10 m above gnd:6hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+3:632664:d=22010212:BRTMP:kpds5=118:kpds6=1:kpds7=0:TR=0:P1=6:P2=0:TimeU=1:sfc:6hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+2:316332:d=22010212:SFCR:kpds5=83:kpds6=1:kpds7=0:TR=0:P1=6:P2=0:TimeU=1:sfc:6hr fcst:NAve=0
+2 2022010221
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+8:2214324:d=22010218:PRMSL:kpds5=2:kpds6=102:kpds7=0:TR=0:P1=3:P2=0:TimeU=1:MSL:3hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+9:2530656:d=22010218:TMP:kpds5=11:kpds6=105:kpds7=2:TR=0:P1=3:P2=0:TimeU=1:2 m above gnd:3hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+10:2846988:d=22010218:SPFH:kpds5=51:kpds6=105:kpds7=2:TR=0:P1=3:P2=0:TimeU=1:2 m above gnd:3hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+12:3479652:d=22010218:UGRD:kpds5=33:kpds6=105:kpds7=10:TR=0:P1=3:P2=0:TimeU=1:10 m above gnd:3hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+13:3795984:d=22010218:VGRD:kpds5=34:kpds6=105:kpds7=10:TR=0:P1=3:P2=0:TimeU=1:10 m above gnd:3hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+3:632664:d=22010218:BRTMP:kpds5=118:kpds6=1:kpds7=0:TR=0:P1=3:P2=0:TimeU=1:sfc:3hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+2:316332:d=22010218:SFCR:kpds5=83:kpds6=1:kpds7=0:TR=0:P1=3:P2=0:TimeU=1:sfc:3hr fcst:NAve=0
+3 2022010300
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+8:2214324:d=22010218:PRMSL:kpds5=2:kpds6=102:kpds7=0:TR=0:P1=6:P2=0:TimeU=1:MSL:6hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+9:2530656:d=22010218:TMP:kpds5=11:kpds6=105:kpds7=2:TR=0:P1=6:P2=0:TimeU=1:2 m above gnd:6hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+10:2846988:d=22010218:SPFH:kpds5=51:kpds6=105:kpds7=2:TR=0:P1=6:P2=0:TimeU=1:2 m above gnd:6hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+12:3479652:d=22010218:UGRD:kpds5=33:kpds6=105:kpds7=10:TR=0:P1=6:P2=0:TimeU=1:10 m above gnd:6hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+13:3795984:d=22010218:VGRD:kpds5=34:kpds6=105:kpds7=10:TR=0:P1=6:P2=0:TimeU=1:10 m above gnd:6hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+3:632664:d=22010218:BRTMP:kpds5=118:kpds6=1:kpds7=0:TR=0:P1=6:P2=0:TimeU=1:sfc:6hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+2:316332:d=22010218:SFCR:kpds5=83:kpds6=1:kpds7=0:TR=0:P1=6:P2=0:TimeU=1:sfc:6hr fcst:NAve=0
+3 2022010303
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+8:2214324:d=22010300:PRMSL:kpds5=2:kpds6=102:kpds7=0:TR=0:P1=3:P2=0:TimeU=1:MSL:3hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+9:2530656:d=22010300:TMP:kpds5=11:kpds6=105:kpds7=2:TR=0:P1=3:P2=0:TimeU=1:2 m above gnd:3hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+10:2846988:d=22010300:SPFH:kpds5=51:kpds6=105:kpds7=2:TR=0:P1=3:P2=0:TimeU=1:2 m above gnd:3hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+12:3479652:d=22010300:UGRD:kpds5=33:kpds6=105:kpds7=10:TR=0:P1=3:P2=0:TimeU=1:10 m above gnd:3hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+13:3795984:d=22010300:VGRD:kpds5=34:kpds6=105:kpds7=10:TR=0:P1=3:P2=0:TimeU=1:10 m above gnd:3hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+3:632664:d=22010300:BRTMP:kpds5=118:kpds6=1:kpds7=0:TR=0:P1=3:P2=0:TimeU=1:sfc:3hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+2:316332:d=22010300:SFCR:kpds5=83:kpds6=1:kpds7=0:TR=0:P1=3:P2=0:TimeU=1:sfc:3hr fcst:NAve=0
+3 2022010306
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+8:2214324:d=22010300:PRMSL:kpds5=2:kpds6=102:kpds7=0:TR=0:P1=6:P2=0:TimeU=1:MSL:6hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+9:2530656:d=22010300:TMP:kpds5=11:kpds6=105:kpds7=2:TR=0:P1=6:P2=0:TimeU=1:2 m above gnd:6hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+10:2846988:d=22010300:SPFH:kpds5=51:kpds6=105:kpds7=2:TR=0:P1=6:P2=0:TimeU=1:2 m above gnd:6hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+12:3479652:d=22010300:UGRD:kpds5=33:kpds6=105:kpds7=10:TR=0:P1=6:P2=0:TimeU=1:10 m above gnd:6hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+13:3795984:d=22010300:VGRD:kpds5=34:kpds6=105:kpds7=10:TR=0:P1=6:P2=0:TimeU=1:10 m above gnd:6hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+3:632664:d=22010300:BRTMP:kpds5=118:kpds6=1:kpds7=0:TR=0:P1=6:P2=0:TimeU=1:sfc:6hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+2:316332:d=22010300:SFCR:kpds5=83:kpds6=1:kpds7=0:TR=0:P1=6:P2=0:TimeU=1:sfc:6hr fcst:NAve=0
+3 2022010309
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+8:2214324:d=22010306:PRMSL:kpds5=2:kpds6=102:kpds7=0:TR=0:P1=3:P2=0:TimeU=1:MSL:3hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+9:2530656:d=22010306:TMP:kpds5=11:kpds6=105:kpds7=2:TR=0:P1=3:P2=0:TimeU=1:2 m above gnd:3hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+10:2846988:d=22010306:SPFH:kpds5=51:kpds6=105:kpds7=2:TR=0:P1=3:P2=0:TimeU=1:2 m above gnd:3hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+12:3479652:d=22010306:UGRD:kpds5=33:kpds6=105:kpds7=10:TR=0:P1=3:P2=0:TimeU=1:10 m above gnd:3hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+13:3795984:d=22010306:VGRD:kpds5=34:kpds6=105:kpds7=10:TR=0:P1=3:P2=0:TimeU=1:10 m above gnd:3hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+3:632664:d=22010306:BRTMP:kpds5=118:kpds6=1:kpds7=0:TR=0:P1=3:P2=0:TimeU=1:sfc:3hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+2:316332:d=22010306:SFCR:kpds5=83:kpds6=1:kpds7=0:TR=0:P1=3:P2=0:TimeU=1:sfc:3hr fcst:NAve=0
+3 2022010312
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+8:2214324:d=22010306:PRMSL:kpds5=2:kpds6=102:kpds7=0:TR=0:P1=6:P2=0:TimeU=1:MSL:6hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+9:2530656:d=22010306:TMP:kpds5=11:kpds6=105:kpds7=2:TR=0:P1=6:P2=0:TimeU=1:2 m above gnd:6hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+10:2846988:d=22010306:SPFH:kpds5=51:kpds6=105:kpds7=2:TR=0:P1=6:P2=0:TimeU=1:2 m above gnd:6hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+12:3479652:d=22010306:UGRD:kpds5=33:kpds6=105:kpds7=10:TR=0:P1=6:P2=0:TimeU=1:10 m above gnd:6hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+13:3795984:d=22010306:VGRD:kpds5=34:kpds6=105:kpds7=10:TR=0:P1=6:P2=0:TimeU=1:10 m above gnd:6hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+3:632664:d=22010306:BRTMP:kpds5=118:kpds6=1:kpds7=0:TR=0:P1=6:P2=0:TimeU=1:sfc:6hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+2:316332:d=22010306:SFCR:kpds5=83:kpds6=1:kpds7=0:TR=0:P1=6:P2=0:TimeU=1:sfc:6hr fcst:NAve=0
+3 2022010315
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+8:2214324:d=22010312:PRMSL:kpds5=2:kpds6=102:kpds7=0:TR=0:P1=3:P2=0:TimeU=1:MSL:3hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+9:2530656:d=22010312:TMP:kpds5=11:kpds6=105:kpds7=2:TR=0:P1=3:P2=0:TimeU=1:2 m above gnd:3hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+10:2846988:d=22010312:SPFH:kpds5=51:kpds6=105:kpds7=2:TR=0:P1=3:P2=0:TimeU=1:2 m above gnd:3hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+12:3479652:d=22010312:UGRD:kpds5=33:kpds6=105:kpds7=10:TR=0:P1=3:P2=0:TimeU=1:10 m above gnd:3hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+13:3795984:d=22010312:VGRD:kpds5=34:kpds6=105:kpds7=10:TR=0:P1=3:P2=0:TimeU=1:10 m above gnd:3hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+3:632664:d=22010312:BRTMP:kpds5=118:kpds6=1:kpds7=0:TR=0:P1=3:P2=0:TimeU=1:sfc:3hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+2:316332:d=22010312:SFCR:kpds5=83:kpds6=1:kpds7=0:TR=0:P1=3:P2=0:TimeU=1:sfc:3hr fcst:NAve=0
+3 2022010318
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+8:2214324:d=22010312:PRMSL:kpds5=2:kpds6=102:kpds7=0:TR=0:P1=6:P2=0:TimeU=1:MSL:6hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+9:2530656:d=22010312:TMP:kpds5=11:kpds6=105:kpds7=2:TR=0:P1=6:P2=0:TimeU=1:2 m above gnd:6hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn
+10:2846988:d=22010312:SPFH:kpds5=51:kpds6=105:kpds7=2:TR=0:P1=6:P2=0:TimeU=1:2 m above gnd:6hr fcst:NAve=0
+
+Undefined parameter table (center 34-241 table 200), using NCEP-opn

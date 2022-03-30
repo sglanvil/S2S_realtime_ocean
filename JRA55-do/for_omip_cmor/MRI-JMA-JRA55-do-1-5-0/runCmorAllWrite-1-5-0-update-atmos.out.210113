@@ -1,0 +1,144 @@
+
+! ------
+! All files were closed successfully. 
+! ------
+! 
+
+! ------
+! All files were closed successfully. 
+! ------
+! 
+
+! ------
+! All files were closed successfully. 
+! ------
+! 
+
+! ------
+! All files were closed successfully. 
+! ------
+! 
+
+! ------
+! All files were closed successfully. 
+! ------
+! 
+
+! ------
+! All files were closed successfully. 
+! ------
+! 
+
+! ------
+! All files were closed successfully. 
+! ------
+! 
+
+! ------
+! All files were closed successfully. 
+! ------
+! 
+
+! ------
+! All files were closed successfully. 
+! ------
+! 
+key,var: A3hr rain
+filePath: input_atmos/rain.2020.20210107.nc
+cmorTable: Tables/input4MIPs_A3hr.json
+inputVarName: prrn
+outputVarName: prra
+outputUnits: kg m-2 s-1
+Source data read start..
+Source data read end..
+Start CMORizing..
+Start CMOR write..
+End CMOR write..
+key,var: A3hr snow
+filePath: input_atmos/snow.2020.20210107.nc
+cmorTable: Tables/input4MIPs_A3hr.json
+inputVarName: prsn
+outputVarName: prsn
+outputUnits: kg m-2 s-1
+Source data read start..
+Source data read end..
+Start CMORizing..
+Start CMOR write..
+End CMOR write..
+key,var: A3hr rlds
+filePath: input_atmos/rlds.2020.20210107.nc
+cmorTable: Tables/input4MIPs_A3hr.json
+inputVarName: rlds
+outputVarName: rlds
+outputUnits: W m-2
+Source data read start..
+Source data read end..
+Start CMORizing..
+Start CMOR write..
+End CMOR write..
+key,var: A3hr rsds
+filePath: input_atmos/rsds.2020.20210107.nc
+cmorTable: Tables/input4MIPs_A3hr.json
+inputVarName: rsds
+outputVarName: rsds
+outputUnits: W m-2
+Source data read start..
+Source data read end..
+Start CMORizing..
+Start CMOR write..
+End CMOR write..
+key,var: A3hrPt q_10
+filePath: input_atmos/q_10.2020.20210107.nc
+cmorTable: Tables/input4MIPs_A3hrPt.json
+inputVarName: huss_10m
+outputVarName: huss
+outputUnits: 1.0
+Source data read start..
+Source data read end..
+Start CMORizing..
+Start CMOR write..
+End CMOR write..
+key,var: A3hrPt slp
+filePath: input_atmos/slp.2020.20210107.nc
+cmorTable: Tables/input4MIPs_A3hrPt.json
+inputVarName: psl
+outputVarName: psl
+outputUnits: Pa
+Source data read start..
+Source data read end..
+Start CMORizing..
+Start CMOR write..
+End CMOR write..
+key,var: A3hrPt t_10
+filePath: input_atmos/t_10.2020.20210107.nc
+cmorTable: Tables/input4MIPs_A3hrPt.json
+inputVarName: tas_10m
+outputVarName: tas
+outputUnits: K
+Source data read start..
+Source data read end..
+Start CMORizing..
+Start CMOR write..
+End CMOR write..
+key,var: A3hrPt u_10
+filePath: input_atmos/u_10.2020.20210107.nc
+cmorTable: Tables/input4MIPs_A3hrPt.json
+inputVarName: uas_10m
+outputVarName: uas
+outputUnits: m s-1
+Source data read start..
+Source data read end..
+Start CMORizing..
+Start CMOR write..
+End CMOR write..
+key,var: A3hrPt v_10
+filePath: input_atmos/v_10.2020.20210107.nc
+cmorTable: Tables/input4MIPs_A3hrPt.json
+inputVarName: vas_10m
+outputVarName: vas
+outputUnits: m s-1
+Source data read start..
+Source data read end..
+Start CMORizing..
+Start CMOR write..
+End CMOR write..

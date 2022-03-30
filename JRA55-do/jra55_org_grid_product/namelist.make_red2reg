@@ -1,0 +1,12 @@
+&nml_make_red2reg
+  file_in='../linkdir/work/jra55fcst_v1_2_prcp_3hr_TL319r/202203/snow.2022032121'
+  file_latlon='../linkdir/work/jra55fcst_v1_2_prcp_3hr_TL319/202203/snow.2022032121'
+  l_out_weight=.false.
+  file_weight='../linkdir/work/jra55fcst_v1_2_prcp_3hr_TL319/202203/snow_weight.2022032121'
+  file_table='../linkdir/data/red2reg_fill_with_water.d'
+  imut=640,
+  jmut=320,
+  grid_name='TL319'
+  undef4_in=9.999e20,
+  undef4_out=9.999e20,
+/

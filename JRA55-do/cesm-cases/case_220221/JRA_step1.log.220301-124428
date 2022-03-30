@@ -1,0 +1,160 @@
+/glade/u/home/ssfcst/JRA55-do/cesm-scripts/JRA_step1.sh ENTER
+#trap '[[ $BASH_COMMAND != echo* ]] && $BASH_COMMAND' DEBUG
+
+# LID=$(date +%y%m%d-%H%M%S)
+# LOGFILE=$(pwd)/master.$YEAR.log.$LID
+#-------------------------------------------------------------------------------
+
+DATADIR=/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data # work dir for input, output, intermediate data
+HOMEDIR=/glade/u/home/ssfcst/JRA55-do                # root dir for all JRA55-do scripts (repo root dir)
+SCRIPTDIR=/glade/u/home/ssfcst/JRA55-do/cesm-scripts # where the CESM wrapper scripts are
+
+# -------------------- user only needs to specify "DATE" --------------------
+DATE=2022-02-21                 # form: YYYYY-MM-DD
+
+# -------------------- note, start date must always be January 1 --------------------
+YEARs=$(date +%Y -d "$DATE")    	# start date: year
+MONTHs=1                        	# start date: month
+DAYs=1                          	# start date: day of month
+ODAYs=1                         	# start date: ordinal day (day of year)
+YEARe=$(date +%Y -d "$DATE")    	# end date: year
+MONTHe=$(date +%m -d "$DATE")   	# end date: month
+DAYe=$(date +%d -d "$DATE")     	# end date: day of month
+ODAYe=$(date +%j -d "$DATE")    	# end date: ordinal day (day of year)
+YEARp=$(date +%Y -d "$DATE + 1 day")    # day after end date: year
+MONTHp=$(date +%m -d "$DATE + 1 day")   # day after end date: month
+DAYp=$(date +%d -d "$DATE + 1 day")     # day after end date: day of month
+DATESTRe=$YEARe$MONTHe$DAYe     	# end date: text string for netCDF file name
+DATESTRc=$YEARe$MONTHe$DAYe     	# file creation date text string for netCDF file name
+
+COMPILE=FALSE   			# TRUE => compile code (usually set to FALSE)
+DOWNLOAD=TRUE				# download ftp data (usually set to TRUE)
+DO_STEP0=FALSE
+DO_STEP1=TRUE 
+DO_STEP2=TRUE
+DO_STEP3=TRUE
+DO_STEP4=TRUE
+DO_STEP5=TRUE
+DO_STEP6=TRUE
+DO_STEP7=TRUE
+DO_STEP8=TRUE 
+LOGFILE=${CASEDIR}/${0}.${LID}
+echo "$0 LOGFILE = $LOGFILE"
+/glade/u/home/ssfcst/JRA55-do/cesm-scripts/JRA_step1.sh LOGFILE = /glade/u/home/ssfcst/JRA55-do/cesm-cases/case_220221//glade/u/home/ssfcst/JRA55-do/cesm-scripts/JRA_step1.sh.220301-124428
+echo "$0 HOMEDIR = $LOGFILE"
+/glade/u/home/ssfcst/JRA55-do/cesm-scripts/JRA_step1.sh HOMEDIR = /glade/u/home/ssfcst/JRA55-do/cesm-cases/case_220221//glade/u/home/ssfcst/JRA55-do/cesm-scripts/JRA_step1.sh.220301-124428
+#-------------------------------------------------------------------------------
+
+echo "==========================================================================="
+===========================================================================
+echo "1. Acquire JRA-55 forecast data and pre-process it"
+1. Acquire JRA-55 forecast data and pre-process it
+echo "==========================================================================="
+===========================================================================
+
+echo " Download JRA55 forecast data ---------------------------------------------"
+ Download JRA55 forecast data ---------------------------------------------
+if [ $DOWNLOAD != "TRUE" ] ; then
+   echo "Not downloading data -- assume it has already been acquired"
+else
+   DATA_SRC_DIR=/glade/collections/rda/data/ds628.8
+   for MONTH in 01 02 03 04 05 06 07 08 09 10 11 12 ; do
+      DATE_DIR=${YEARs}${MONTH}
+   #  for FCST_DIR in fcst_phy2m ice fcst_surf fcst_phyland ; do  -- don't need phyland ?
+      for FCST_DIR in fcst_phy2m ice fcst_surf ; do
+         cd $DATADIR/forcing/$FCST_DIR
+         if [ ! -d $DATE_DIR ]; then mkdir $DATE_DIR  ; fi
+         if [   -d $DATA_SRC_DIR/$FCST_DIR/$DATE_DIR ]; then 
+           cp -rpn $DATA_SRC_DIR/$FCST_DIR/$DATE_DIR/*   $DATE_DIR
+         fi
+   #     echo $(date +%y%m%d-%H%M%S)  lftp mirror -c  $DATADIR/$FCST_DIR/$DATE_DIR
+   #     lftp -c "open -u jra06235,2rXw3TSf ds.data.jma.go.jp ; cd /JRA-55/Hist/Daily/$FCST_DIR ; mirror -c -P 3 $DATE_DIR ; exit "
+   #     lftp -c "open -u jra06235,2rXw3TSf ds.data.jma.go.jp ; cd /JRA-55/Hist/Daily/$FCST_DIR/$DATE_DIR ; mget -c * "  -- too many processes
+      done
+   done
+fi
+
+#-----------------------------------------------------------------------------------------
+echo " Decode GRIB and make flat binary -----------------------------------------"
+ Decode GRIB and make flat binary -----------------------------------------
+echo "tStamp: $(date +%y%m%d-%H%M%S)"
+tStamp: 220301-124428
+#-----------------------------------------------------------------------------------------
+
+cd $HOMEDIR/extract_jra55
+pwd
+/glade/u/home/ssfcst/JRA55-do/extract_jra55
+
+LOGFILE=$CASEDIR/process_year_last.log.$YEARe.$LID
+time ./process_year_last.sh $YEARe $MONTHe $DAYe  >& $LOGFILE
+
+real	2m8.642s
+user	0m23.615s
+sys	2m0.206s
+#  input: DATADIR/forcing/fcst_phy2m,fcst_surf
+# output: DATADIR/work/jra55fcst_3hr_TL319r
+
+#-----------------------------------------------------------------------------------------
+echo " Apply zonal 1-2-1 filter to winds ----------------------------------------"
+ Apply zonal 1-2-1 filter to winds ----------------------------------------
+echo "tStamp: $(date +%y%m%d-%H%M%S)"
+tStamp: 220301-124636
+#-----------------------------------------------------------------------------------------
+
+cd $HOMEDIR/jra55_org_grid_calib
+pwd
+/glade/u/home/ssfcst/JRA55-do/jra55_org_grid_calib
+
+if [ $COMPILE == "TRUE" ] ; then
+   gmake filter_wind_interannual
+fi
+
+LOGFILE=$CASEDIR/filter_wind_interannual_latest_exec.log.$YEARs.$LID
+time ./filter_wind_interannual_latest_exec.sh $YEARs $MONTHs $DAYs $YEARp $MONTHp $DAYp  >& $LOGFILE
+
+real	0m11.390s
+user	0m0.647s
+sys	0m0.485s
+#  input: DATADIR/work/jra55fcst_3hr_TL319r
+# output: DATADIR/work/jra55fcst_filt_3hr_TL319  <- (link) DATADIR/work/jra55fcst_3hr_TL319
+
+#-----------------------------------------------------------------------------------------
+echo " Regrid from reduced TL319 to normal TL319 ---------------------------------"
+ Regrid from reduced TL319 to normal TL319 ---------------------------------
+echo "tStamp: $(date +%y%m%d-%H%M%S)"
+tStamp: 220301-124648
+#-----------------------------------------------------------------------------------------
+
+cd $HOMEDIR/jra55_org_grid_product
+pwd
+/glade/u/home/ssfcst/JRA55-do/jra55_org_grid_product
+
+if [ $COMPILE == "TRUE" ] ; then
+   gmake make_red2reg
+fi
+
+echo "#--- regrid everything except wind ---"
+#--- regrid everything except wind ---
+LOGFILE=$CASEDIR/red2reg_exec_raw_v1_0.log.$YEARs.$LID
+time           ./red2reg_exec_raw_v1_0.sh  $YEARs $YEARe $ODAYs $ODAYe >& $LOGFILE
+
+real	2m23.795s
+user	0m43.103s
+sys	1m17.819s
+echo "#--- regrid filtered wind ---"
+#--- regrid filtered wind ---
+LOGFILE=$CASEDIR/red2reg_exec_raw_v1_0_wind.log.$YEARs.$LID
+time           ./red2reg_exec_raw_v1_0_wind.sh  $YEARs $YEARe $ODAYs $ODAYe >& $LOGFILE
+
+real	0m32.527s
+user	0m10.172s
+sys	0m18.515s
+#  input: DATADIR/work/jra55fcst_3hr_TL319r
+#  input: DATADIR/work/jra55fcst_filt_3hr_TL319r
+# output: DATADIR/work/jra55fcst_filt_3hr_TL319
+
+
+# link: DATADIR/work/jra55fcst_3hr_TL319 -> DATADIR/work/jra55fcst_filt_3hr_TL319 (only wind is filtered)
+
+echo ${0} "EXIT"
+/glade/u/home/ssfcst/JRA55-do/cesm-scripts/JRA_step1.sh EXIT

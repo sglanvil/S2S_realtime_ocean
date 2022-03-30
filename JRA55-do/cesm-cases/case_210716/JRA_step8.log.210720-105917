@@ -1,0 +1,92 @@
+/glade/u/home/ssfcst/JRA55-do/cesm-scripts/JRA_step8.sh ENTER
+#trap '[[ $BASH_COMMAND != echo* ]] && $BASH_COMMAND' DEBUG
+
+# LID=$(date +%y%m%d-%H%M%S)
+# LOGFILE=$(pwd)/master.$YEAR.log.$LID
+#-------------------------------------------------------------------------------
+
+
+DATADIR=/glade/campaign/cesm/development/cross-wg/S2S/JRA55_data # work dir for input, output, intermediate data
+HOMEDIR=/glade/u/home/ssfcst/JRA55-do                # root dir for all JRA55-do scripts (repo root dir)
+SCRIPTDIR=/glade/u/home/ssfcst/JRA55-do/cesm-scripts # where the CESM wrapper scripts are
+
+YEARs=2021    # start date: year 
+MONTHs=1      # start date: month 
+DAYs=1        # start date: day of month
+ODAYs=1       # start date: ordinal day (day in year)
+
+YEARe=2021    # end date: year 
+MONTHe=7      # end date: month of year
+DAYe=16       # end date: day of month
+ODAYe=197      # end date: ordinal day
+DATESTRe=20210716 # end date: text string for netCDF file name
+
+YEARp=2021    # end date: year 
+MONTHp=7      # day after end date: month of year
+DAYp=17       # day after end date: day of month
+
+DATESTRc=20210716 # file creation date text string for netCDF file name
+
+COMPILE=FALSE   # TRUE => compile code
+DOWNLOAD=TRUE   # download ftp data
+
+DO_STEP0=FALSE
+DO_STEP1=TRUE
+DO_STEP2=TRUE
+DO_STEP3=TRUE
+DO_STEP4=TRUE
+DO_STEP5=TRUE
+DO_STEP6=TRUE
+DO_STEP7=TRUE
+DO_STEP8=TRUE 
+LOGFILE=${CASEDIR}/${0}.${LID}
+echo "$0 LOGFILE = $LOGFILE"
+/glade/u/home/ssfcst/JRA55-do/cesm-scripts/JRA_step8.sh LOGFILE = /glade/u/home/ssfcst/JRA55-do/cesm-cases/case_210716//glade/u/home/ssfcst/JRA55-do/cesm-scripts/JRA_step8.sh.210720-105917
+echo "$0 HOMEDIR = $LOGFILE"
+/glade/u/home/ssfcst/JRA55-do/cesm-scripts/JRA_step8.sh HOMEDIR = /glade/u/home/ssfcst/JRA55-do/cesm-cases/case_210716//glade/u/home/ssfcst/JRA55-do/cesm-scripts/JRA_step8.sh.210720-105917
+#-------------------------------------------------------------------------------
+
+echo "==========================================================================="
+===========================================================================
+echo "8 Create dataset product for input4MIPs "                
+8 Create dataset product for input4MIPs 
+echo "==========================================================================="
+===========================================================================
+
+#-----------------------------------------------------------------------------------------
+echo " When updating data in the middle of a year -------------------------------"
+ When updating data in the middle of a year -------------------------------
+echo "tStamp: $(date +%y%m%d-%H%M%S)"
+tStamp: 210720-105917
+#-----------------------------------------------------------------------------------------
+
+cd $HOMEDIR/for_mricom
+pwd
+/glade/u/home/ssfcst/JRA55-do/for_mricom
+
+LOGFILE=$CASEDIR/make_mricom_latest.$LID
+time ./make_mricom_latest.sh  $YEARs $ODAYe   >& $LOGFILE
+
+real	4m54.492s
+user	0m56.327s
+sys	0m50.523s
+#  input: .../linkdir/work/jra55fcst_filt_3hr_TL319       # slprs, brtmp, ice
+#  input: .../linkdir/work/jra55fcst_v1_3_prod3_3hr_TL319 # tmp10m sph10m
+#  input: .../linkdir/work/jra55fcst_v1_3_prod1_3hr_TL319 # u10m v10m
+#  input: .../linkdir/work/jra55fcst_v1_3_rad2_3hr_TL319  # dswrf dlwrf v1_3 => const correction
+#  input: .../linkdir/work/jra55fcst_v1_3_prcp2_3hr_TL319 # rain snow
+# output: .../linkdir/products/version_1_5/grads (excluding rain data which was created in step 7)
+
+#-----------------------------------------------------------------------------------------
+echo " Intermediate netCDF data -------------------------------------------------"
+ Intermediate netCDF data -------------------------------------------------
+echo "tStamp: $(date +%y%m%d-%H%M%S)"
+tStamp: 210720-110412
+#-----------------------------------------------------------------------------------------
+
+cd $HOMEDIR/for_omip
+pwd
+/glade/u/home/ssfcst/JRA55-do/for_omip
+
+LOGFILE=$CASEDIR/create_netcdf_v1_5.$LID
+time ./create_netcdf_v1_5.sh  $YEARs $YEARe $DATESTRc $ODAYe >& $LOGFILE
